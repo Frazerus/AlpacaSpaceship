@@ -35,6 +35,7 @@ public class Enemy : MonoBehaviour
     {
         if(moved++ == BaseDist)
         {
+            BeatMachine.current.onBeat -= Move;
             Destroy(gameObject);
         }
         transform.position += dir * speed;

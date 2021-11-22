@@ -2,32 +2,33 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BeatTest : MonoBehaviour
 
 {
+    [SerializeField] private Color c1 = Color.red;
+    [SerializeField] private Color c2 = Color.gray;
+    
     private GameObject test;
-    private Material material;
+    private Image material;
     // Start is called before the first frame update
     void Start()
     {
         BeatMachine.current.onBeat += Beat;
-        test = GameObject.Find("BeatTestCube");
-        material = test.GetComponent<MeshRenderer>().material;
+        material = gameObject.GetComponentInParent<Image>();
         
     }
     
     public void Beat()
     {
-        //print("Beat");
-        if (material.color == Color.blue)
+        if (material.color == c2)
         {
-            material.SetColor("_Color", Color.red);
+            material.color = c1;
         }
         else
         {
-            //print("Blue Beat");
-            material.SetColor("_Color", Color.blue);
+            material.color = c2;
         }
     }
 }
