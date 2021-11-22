@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.Pro5 Game.iml
+# Datasource local storage ignored files
+/../../../../../../../../../:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\.idea\.idea.Pro5 Game\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
