@@ -11,7 +11,7 @@ public class BeatTest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        BeatMaschine.current.onBeat += Beat;
+        BeatMachine.current.onBeat += Beat;
         test = GameObject.Find("BeatTestCube");
         material = test.GetComponent<MeshRenderer>().material;
         
@@ -19,14 +19,14 @@ public class BeatTest : MonoBehaviour
     
     public void Beat()
     {
-        print("Beat");
+        //print("Beat");
         if (material.color == Color.blue)
         {
             material.SetColor("_Color", Color.red);
         }
         else
         {
-            print("Blue Beat");
+            //print("Blue Beat");
             material.SetColor("_Color", Color.blue);
         }
     }

@@ -19,25 +19,21 @@ public class Enemy : MonoBehaviour
         dir.y = 0;
         dir = dir.normalized;
 
-        transform.position = -dir * (player.GetComponent<Player>().distFromCloseEnemy + speed * BaseDist);
+        transform.position = -dir * (player.GetComponent<Player>().distFromCloseEnemy + speed * (BaseDist+1));
         transform.position.Set(transform.position.x, 0,transform.position.z);
 
-        float angle = Vector3.Dot(transform.position, Vector3.forward);
-        angle /= Vector3.Magnitude(transform.position);
-        print(angle);
-        angle = Mathf.Acos(angle*(Mathf.PI/180));
 
-        print(angle);
 
+        float angle = Vector3.Angle(transform.position, Vector3.forward);
         transform.rotation = Quaternion.Euler(0, angle, 0);
 
-        InvokeRepeating("move", 0, 1);
+        BeatMachine.current.onBeat += Move;
         
     }
 
-    private void move()
+    private void Move()
     {
-        if(moved++ >= BaseDist)
+        if(moved++ == BaseDist)
         {
             Destroy(gameObject);
         }
