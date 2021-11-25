@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
         float angle = Vector3.Angle(transform.position, Vector3.forward);
         transform.rotation = Quaternion.Euler(0, angle, 0);
 
-        BeatMachine.current.onBeat += Move;
+        BeatMachine.current.onOffBeat += Move;
         BeatMachine.current.onAttack += Attacked;
         
     }
@@ -42,7 +42,7 @@ public class Enemy : MonoBehaviour
     {
         if(moved++ == BaseDist)
         {
-            BeatMachine.current.onBeat -= Move;
+            BeatMachine.current.onOffBeat -= Move;
             BeatMachine.current.onAttack -= Attacked;
             Destroy(gameObject);
         }
@@ -54,7 +54,7 @@ public class Enemy : MonoBehaviour
     {
         if(type == EnemyType && BaseDist - moved <= 1)
         {
-            BeatMachine.current.onBeat -= Move;
+            BeatMachine.current.onOffBeat -= Move;
             BeatMachine.current.onAttack -= Attacked;
             Destroy(gameObject);
         }

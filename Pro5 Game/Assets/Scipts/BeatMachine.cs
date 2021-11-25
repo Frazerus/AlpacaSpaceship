@@ -9,9 +9,11 @@ public class BeatMachine : MonoBehaviour
 
     [SerializeField] private int bPm = 128;
     [SerializeField] private bool doTick;
-    
+    [SerializeField] private int beatDivider = 2; 
+
     private AudioSource tick;
     private float deltaSec;
+    private float deltaSecOffBeat;
     private float beatSec;
     private int takt;
     
@@ -25,11 +27,17 @@ public class BeatMachine : MonoBehaviour
     void Update()
     {
         beatSec = 1 / ((float) bPm/60);
-        
         deltaSec += Time.deltaTime;
+        deltaSecOffBeat += Time.deltaTime;
         
         //print(beatSec + " | " + deltaSec);
-        
+        if(deltaSecOffBeat%beatSec > beatSec / beatDivider)
+        {
+            current.OffBeat();
+            deltaSecOffBeat = -beatSec/beatDivider;
+        }
+
+
         if (deltaSec >= beatSec)
         {
             current.Beat();
@@ -70,6 +78,8 @@ public class BeatMachine : MonoBehaviour
         if (onBeat != null)
         {
             onBeat();
+            
+            
         }
     }
 
