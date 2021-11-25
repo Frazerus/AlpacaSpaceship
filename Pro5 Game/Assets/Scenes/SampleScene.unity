@@ -728,7 +728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b407533998704943a4850210d9aeb2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bPm: 128
+  beatSec: 0
+  bPm: 64
   doTick: 1
   beatDivider: 2
 --- !u!1 &163142811

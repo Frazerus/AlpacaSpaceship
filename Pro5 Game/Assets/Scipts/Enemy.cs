@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour
         
     }
 
-    
+ 
 
     private void Move()
     {
@@ -50,15 +50,19 @@ public class Enemy : MonoBehaviour
 
     }
 
+
     private void Attacked(int type)
     {
-        if(type == EnemyType && BaseDist - moved <= 1)
+        if(type == EnemyType && BaseDist - moved <  1)
         {
+
             BeatMachine.current.onOffBeat -= Move;
             BeatMachine.current.onAttack -= Attacked;
-            Destroy(gameObject);
+
+            BeatMachine.current.Killed(gameObject);
         }
     }
 
+   
 
 }
