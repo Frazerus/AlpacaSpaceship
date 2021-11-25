@@ -8,7 +8,8 @@ public class Enemy : MonoBehaviour
     public float speed;
     public int BaseDist;
     public int EnemyType;
-
+    [SerializeField] private int savedBeats = 16;
+    
     private Vector3 dir;
     private GameObject player;
     private int moved = 0;
@@ -63,6 +64,14 @@ public class Enemy : MonoBehaviour
         }
     }
 
-   
+    public int GetEnemyTyp()
+    {
+        return EnemyType;
+    }
+
+    public int GetSavedBeats()
+    {
+        return savedBeats;
+    }
 
 }

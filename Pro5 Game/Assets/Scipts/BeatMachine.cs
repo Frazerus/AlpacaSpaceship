@@ -25,6 +25,7 @@ public class BeatMachine : MonoBehaviour
         current.onKilled += EnemyKilled;
 
         beatSec = 1 / ((float)bPm / 60);
+        deltaSec = beatSec;
         deltaSecOff = beatSec / beatDivider;
     }
 
@@ -121,7 +122,7 @@ public class BeatMachine : MonoBehaviour
     //Happens when an Enemy gets killed
     public event Action<GameObject> onKilled;
 
-    public void Killed( GameObject obj)
+    public void Killed(GameObject obj)
     {
         if (onKilled != null)
         {
