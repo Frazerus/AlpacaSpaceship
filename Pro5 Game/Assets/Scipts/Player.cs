@@ -12,36 +12,21 @@ public class Player : MonoBehaviour
     {
         player = GameObject.Find("Player");
         material = player.GetComponent<MeshRenderer>().material;
-    }
-
-
-    void Update()
-    {
         
     }
 
+
     public void changeCol(int col)
     {
-        switch (col)
-        {
-            case 0:
-                material.SetColor("_Color", Color.blue);
-                break;
-            case 1:
-                material.SetColor("_Color", Color.green);
-                break;
-            case 2:
-                material.SetColor("_Color", Color.yellow);
-                break;
-            case 3:
-                material.SetColor("_Color", Color.magenta);
-                break;
-        }
+        ColorSet.changeCol(material, col);
     }
+
+    
 
     public void attack(int att)
     {
         changeCol(att);
+        BeatMachine.current.Attack(att);
     }
 
 }

@@ -53,6 +53,16 @@ public class BeatMachine : MonoBehaviour
         }
     }
 
+    public event Action onOffBeat;
+
+    public void OffBeat()
+    {
+        if (onOffBeat != null)
+        {
+            onOffBeat();
+        }
+    }
+
     public event Action onBeat;
 
     public void Beat()
@@ -60,6 +70,16 @@ public class BeatMachine : MonoBehaviour
         if (onBeat != null)
         {
             onBeat();
+        }
+    }
+
+    public event Action<int> onAttack;
+
+    public void Attack(int type)
+    {
+        if (onAttack != null)
+        {
+            onAttack(type);
         }
     }
 
