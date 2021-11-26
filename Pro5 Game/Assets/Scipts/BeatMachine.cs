@@ -6,15 +6,15 @@ using UnityEngine;
 public class BeatMachine : MonoBehaviour
 {
     public static BeatMachine current;
-    public float beatSec;
+    public double beatSec;
 
     [SerializeField] private int bPm = 128;
     [SerializeField] private bool doTick;
     [SerializeField] private int beatDivider = 2;
 
     private AudioSource tick;
-    private float deltaSec;
-    private float deltaSecOff;
+    private double deltaSec;
+    private double deltaSecOff;
    
     private int takt;
     
@@ -71,12 +71,13 @@ public class BeatMachine : MonoBehaviour
     private void EnemyKilled(GameObject obj)
     {
         
-        float max = deltaSec - beatSec / 2;
+        float max = (float)deltaSec - (float)beatSec / 2;
         max = max >= 0 ? max : -max;
 
-        float mistake = beatSec / 2 - max;
+        
+        float mistake = (float)beatSec / 2 - max;
 
-        float rating = max/(beatSec/2);
+        float rating = max/((float)beatSec/2);
         // Placeholder output of the rating of the last attack
         print("Rating: " + rating);
 
@@ -130,6 +131,14 @@ public class BeatMachine : MonoBehaviour
         }
     }
 
+    public float getBeatDivided()
+    {
+        return beatSec / beatDivider;
+    }
 
+    public int getBeatDivider()
+    {
+        return beatDivider;
+    }
     
 }

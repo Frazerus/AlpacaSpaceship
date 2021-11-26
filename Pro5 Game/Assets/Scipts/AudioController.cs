@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class AudioController : MonoBehaviour
 {
+
+    /*
+     * Maybe mit nem Array an audiosources? dann musst du nicht unten die ganze zeit switch statements machen
+     */
     [SerializeField] private AudioSource baseAudio;
     [SerializeField] private AudioSource layer1;
     [SerializeField] private AudioSource layer2;
@@ -16,7 +20,7 @@ public class AudioController : MonoBehaviour
     
     private void Start()
     {
-        BeatMachine.current.onBeat += ControlleLayers;
+        BeatMachine.current.onBeat += ControlLayers;
         BeatMachine.current.onKilled += OnKill;
     }
 
@@ -29,7 +33,7 @@ public class AudioController : MonoBehaviour
         layer4.Play();
     }
 
-    private void ControlleLayers()
+    private void ControlLayers()
     {
         if (isFirstBeat)
         {
@@ -52,14 +56,14 @@ public class AudioController : MonoBehaviour
 
         if (obj.TryGetComponent(out Enemy enemy))
         {
-            int enemyTyp = enemy.GetEnemyTyp();
+            int enemyType = enemy.GetEnemyType();
             
-            if (beatsLeft[enemyTyp] <= 0)
+            if (beatsLeft[enemyType] <= 0)
             {
-                StartLayer(enemyTyp);
+                StartLayer(enemyType);
             }
             // + 1 damit es nicht am beat aufhört sondern einen Beat danach
-            beatsLeft[enemyTyp] = enemy.GetSavedBeats() + 1;
+            beatsLeft[enemyType] = enemy.GetSavedBeats() + 1;
         }
     }
 

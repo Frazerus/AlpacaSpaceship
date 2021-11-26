@@ -14,6 +14,7 @@ public class Enemy : MonoBehaviour
     private GameObject player;
     private int moved = 0;
     private Material material;
+    private bool moving = false;
 
     void Start()
     {
@@ -26,7 +27,7 @@ public class Enemy : MonoBehaviour
         dir.y = 0;
         dir = dir.normalized;
 
-        transform.position = -dir * (player.GetComponent<Player>().distFromCloseEnemy + speed * (BaseDist+1));
+        transform.position = -dir * (1 + player.GetComponent<Player>().distFromCloseEnemy + speed * (BaseDist + 1/BeatMachine.current.getBeatDivider()));
         transform.position.Set(transform.position.x, 0,transform.position.z);
 
         float angle = Vector3.Angle(transform.position, Vector3.forward);
@@ -37,14 +38,26 @@ public class Enemy : MonoBehaviour
         
     }
 
- 
+    private void Update()   
+    {
+        if (moving)
+        {
+            transform.position += dir * speed * (float)(Time.deltaTime/BeatMachine.current.beatSec);
+        }
+    }
+
+
 
     private void Move()
     {
+        
+        //moving = true;
         if(moved++ == BaseDist)
         {
             BeatMachine.current.onOffBeat -= Move;
             BeatMachine.current.onAttack -= Attacked;
+            print(transform.position.magnitude);
+
             Destroy(gameObject);
         }
         transform.position += dir * speed;
@@ -64,7 +77,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public int GetEnemyTyp()
+    public int GetEnemyType()
     {
         return EnemyType;
     }
