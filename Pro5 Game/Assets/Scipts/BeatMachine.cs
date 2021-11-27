@@ -133,7 +133,7 @@ public class BeatMachine : MonoBehaviour
 
     public float getBeatDivided()
     {
-        return beatSec / beatDivider;
+        return (float)beatSec / beatDivider;
     }
 
     public int getBeatDivider()

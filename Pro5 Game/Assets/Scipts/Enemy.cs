@@ -9,12 +9,22 @@ public class Enemy : MonoBehaviour
     public int BaseDist;
     public int EnemyType;
     [SerializeField] private int savedBeats = 16;
-    
+
+
+    private float beatTime;
     private Vector3 dir;
     private GameObject player;
     private int moved = 0;
     private Material material;
     private bool moving = false;
+
+    private float[] enemySize =
+    {
+        0.5f,
+        0.5f,
+        0.5f,
+        0.5f,
+    };
 
     void Start()
     {
@@ -26,9 +36,7 @@ public class Enemy : MonoBehaviour
         dir = player.transform.position - this.transform.position;
         dir.y = 0;
         dir = dir.normalized;
-
-        transform.position = -dir * (1 + player.GetComponent<Player>().distFromCloseEnemy + speed * (BaseDist + 1/BeatMachine.current.getBeatDivider()));
-        transform.position.Set(transform.position.x, 0,transform.position.z);
+       
 
         float angle = Vector3.Angle(transform.position, Vector3.forward);
         transform.rotation = Quaternion.Euler(0, angle, 0);
@@ -42,7 +50,11 @@ public class Enemy : MonoBehaviour
     {
         if (moving)
         {
-            transform.position += dir * speed * (float)(Time.deltaTime/BeatMachine.current.beatSec);
+            //Lineare Bewegung
+            float inBeatDiff = (Time.time - beatTime) / (float)BeatMachine.current.beatSec;
+            //Hüpfende
+            //inBeatDiff = 0;
+            transform.position = -dir * (player.GetComponent<Player>().PerfectKillZone + speed * (BaseDist - moved - inBeatDiff));
         }
     }
 
@@ -50,17 +62,26 @@ public class Enemy : MonoBehaviour
 
     private void Move()
     {
-        
-        //moving = true;
-        if(moved++ == BaseDist)
+        if (!moving)
         {
+            moving = true;  
+        }
+        beatTime = Time.time;
+
+        if(moved == BaseDist)
+        {
+            moving = false;
             BeatMachine.current.onOffBeat -= Move;
             BeatMachine.current.onAttack -= Attacked;
-            print(transform.position.magnitude);
+            print("Last Distance: " + transform.position.magnitude);
+            
+            //TODO: Add something that happens when you completly miss the last beat
+
 
             Destroy(gameObject);
         }
-        transform.position += dir * speed;
+        moved++;
+        //transform.position += dir * speed;
 
     }
 

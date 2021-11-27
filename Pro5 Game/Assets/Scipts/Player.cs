@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public int hp;
-    public float distFromCloseEnemy;
+    public float PerfectKillZone;
     private GameObject player;
     private Material material;
     void Start()
