@@ -575,6 +575,7 @@ GameObject:
   - component: {fileID: 144625879}
   - component: {fileID: 144625883}
   - component: {fileID: 144625882}
+  - component: {fileID: 144625884}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -742,6 +743,31 @@ MonoBehaviour:
   bPm: 140
   doTick: 0
   beatDivider: 2
+--- !u!114 &144625884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144625878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ad44a497175034195a680b2a915437, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5375747283287529299, guid: 2d2f1ebefefffc94c9043b62ccb9c39c, type: 3}
+  minRating:
+  - 0.95
+  - 0.9
+  - 0.8
+  - 0.5
+  - 0
+  ratingNames:
+  - INSANITYYYY
+  - Wow!!!
+  - Great!
+  - Good
+  - OOF
 --- !u!1 &163142811
 GameObject:
   m_ObjectHideFlags: 0

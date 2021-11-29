@@ -78,8 +78,11 @@ public class BeatMachine : MonoBehaviour
         float mistake = (float)beatSec / 2 - max;
 
         float rating = max/((float)beatSec/2);
+
         // Placeholder output of the rating of the last attack
         print("Rating: " + rating);
+
+        Rating(rating);
 
         Destroy(obj);
     }
@@ -131,6 +134,16 @@ public class BeatMachine : MonoBehaviour
         }
     }
 
+    public event Action<float> onRating;
+
+    public void Rating(float rating)
+    {
+        if(onRating != null)
+        {
+            onRating(rating);
+        }
+    }
+
     public float getBeatDivided()
     {
         return (float)beatSec / beatDivider;
@@ -140,5 +153,7 @@ public class BeatMachine : MonoBehaviour
     {
         return beatDivider;
     }
+
+
     
 }
