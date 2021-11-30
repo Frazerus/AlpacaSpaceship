@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
 
     public void changeCol(int col)
     {
-        ColorSet.changeCol(material, col);
+        Constants.changeCol(material, col);
     }
 
     

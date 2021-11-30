@@ -30,7 +30,7 @@ public class DestroyRatingUI : MonoBehaviour
         }
         else
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
     }
 }

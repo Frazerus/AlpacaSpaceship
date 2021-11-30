@@ -22,7 +22,6 @@ public class BeatMachine : MonoBehaviour
     {
         current = this;
         tick = GetComponent<AudioSource>();
-        current.onKilled += EnemyKilled;
 
         beatSec = 1 / ((float)bPm / 60);
         deltaSec = beatSec;
@@ -68,24 +67,23 @@ public class BeatMachine : MonoBehaviour
         }
     }
 
-    private void EnemyKilled(GameObject obj)
+    public float CreateRating()
     {
-        
         float max = (float)deltaSec - (float)beatSec / 2;
         max = max >= 0 ? max : -max;
 
-        
+
         float mistake = (float)beatSec / 2 - max;
 
-        float rating = max/((float)beatSec/2);
-
-        // Placeholder output of the rating of the last attack
-        print("Rating: " + rating);
-
-        Rating(rating);
-
-        Destroy(obj);
+        return max / ((float)beatSec / 2);
     }
+
+    public void createRatingAndSend()
+    {
+        Rating(CreateRating());
+    }
+
+
 
     //Happens every beat once, at the divided time
     public event Action onOffBeat;
