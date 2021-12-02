@@ -8,17 +8,18 @@ public class BeatMachine : MonoBehaviour
 {
     public static BeatMachine current;
     public double beatSec;
+    public double beatOffset = 2;
 
     [SerializeField] private int bPm = 128;
     [SerializeField] private bool doTick;
     [SerializeField] private bool showBeat;
-    [SerializeField] private int beatDivider = 2;
     [SerializeField] private Text debugOutput;
 
     private AudioSource tick;
     private double deltaSec;
     private double deltaSecOff;
     private int numBeat;
+    private bool started = true;
    
     private int takt;
     
@@ -26,75 +27,96 @@ public class BeatMachine : MonoBehaviour
     {
         current = this;
         tick = GetComponent<AudioSource>();
-        current.onKilled += EnemyKilled;
+        current.onBegin += startPlaying;
 
         beatSec = 1 / ((float)bPm / 60);
-        deltaSec = beatSec;
-        deltaSecOff = beatSec / beatDivider;
+        deltaSec = 0;
+        deltaSecOff = beatSec * beatOffset;
     }
+
 
     // Update is called once per frame
     void Update()
     {
-        beatSec = 1 / ((float)bPm / 60);
-        deltaSec += Time.deltaTime;
-        deltaSecOff += Time.deltaTime;
-        
-        //print(beatSec + " | " + deltaSec);
-        
-        if(deltaSecOff >= beatSec)
+        if (started)
         {
-            deltaSecOff = 0;
-            current.OffBeat();
-        }
 
+            beatSec = 1 / ((double)bPm / 60);
+            deltaSec += Time.deltaTime;
+            deltaSecOff += Time.deltaTime;
+        
+            //print(beatSec + " | " + deltaSec);
+        
+            if(deltaSecOff >= beatSec)
+            {
+                deltaSecOff = deltaSecOff - beatSec;
+                current.OffBeat();
 
-        if (deltaSec >= beatSec)
-        {
-            current.Beat();
-            deltaSec = 0;
-            numBeat++;
-            debugOutput.text = numBeat.ToString();
-            if (showBeat)
-            {
-                
-            }
-            if (doTick)
-            {
-                if (takt == 0)
+                if (doTick)
                 {
-                    tick.pitch = 1.2f;
-                    tick.Play();
-                    takt++;
+                    if (takt == 0)
+                    {
+                        tick.pitch = 1.2f;
+                        tick.Play();
+                        takt++;
+                    }
+                    else
+                    {
+                        tick.pitch = 0.8f;
+                        tick.Play();
+                        takt = (takt < 3) ? takt + 1 : 0;
+                    }
+
                 }
-                else
+            }
+
+
+            if (deltaSec >= beatSec)
+            {
+                current.Beat();
+                
+                //print("****************************************" + deltaSec);
+                deltaSec = deltaSec - beatSec;
+                
+                numBeat++;
+                debugOutput.text = numBeat.ToString();
+                if (showBeat)
                 {
-                    tick.pitch = 0.8f;
-                    tick.Play();
-                    takt = (takt < 3) ? takt+1 : 0;
+                
                 }
                 
             }
         }
     }
 
-    private void EnemyKilled(GameObject obj)
+    public void startPlaying()
+    {
+        started = true;
+        Update();
+    }
+
+    public float createRating()
     {
         
-        float max = (float)deltaSec - (float)beatSec / 2;
+        double max = deltaSec/beatSec;
+
+        //print(deltaSec + " | " + beatSec);
+        max -= 0.5;
         max = max >= 0 ? max : -max;
 
+      
+
+        float rating = (float)max * 2;
         
-        float mistake = (float)beatSec / 2 - max;
-
-        float rating = max/((float)beatSec/2);
-
         // Placeholder output of the rating of the last attack
         print("Rating: " + rating);
 
-        Rating(rating);
+        return rating;
+    }
 
-        Destroy(obj);
+    public void createRatingAndSend()
+    {
+        Rating(createRating());
     }
 
     //Happens every beat once, at the divided time
@@ -154,14 +176,14 @@ public class BeatMachine : MonoBehaviour
         }
     }
 
-    public float getBeatDivided()
-    {
-        return (float)beatSec / beatDivider;
-    }
 
-    public int getBeatDivider()
+    public event Action onBegin;
+    public void Begin()
     {
-        return beatDivider;
+        if(onBegin != null)
+        {
+            onBegin();
+        }
     }
 
 

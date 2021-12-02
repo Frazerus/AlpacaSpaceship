@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
 
     public void attack(int att)
     {
-        changeCol(att);
+        //changeCol(att);
         BeatMachine.current.Attack(att);
     }
 

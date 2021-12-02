@@ -30,7 +30,7 @@ public class CreateRatingUI : MonoBehaviour
         GameObject go = Instantiate(prefab) as GameObject;
 
         go.GetComponent<Text>().text = ratingNames[i];
-        print(ratingNames[i]);
+        //print(ratingNames[i]);
         go.transform.SetParent(UI.transform);
         go.GetComponent<RectTransform>().anchoredPosition = prefab.GetComponent<RectTransform>().anchoredPosition;
     }

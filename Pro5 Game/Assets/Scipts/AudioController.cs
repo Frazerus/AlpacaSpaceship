@@ -15,17 +15,23 @@ public class AudioController : MonoBehaviour
     [SerializeField] private AudioSource layer3;
     [SerializeField] private AudioSource layer4;
 
+    [SerializeField] private float musicTimeOffset;
+
     private int[] beatsLeft = {0,0,0,0};
     private bool isFirstBeat = true;
     
     private void Start()
     {
-        BeatMachine.current.onBeat += ControlLayers;
+        //DO NOt FUCKING ASK ME WHY IT HAS TO BE OFFBEAT;
+        //I WOULD LOVE TO KNOW TOO
+        //FUCK THIS SHIT
+        BeatMachine.current.onOffBeat += ControlLayers;
         BeatMachine.current.onKilled += OnKill;
     }
 
-    private void StartAll()
+    private IEnumerator StartAll()
     {
+        yield return new WaitForSeconds(musicTimeOffset);
         baseAudio.Play();
         layer1.Play();
         layer2.Play();
@@ -37,7 +43,7 @@ public class AudioController : MonoBehaviour
     {
         if (isFirstBeat)
         {
-            StartAll();
+            StartCoroutine(StartAll());
             isFirstBeat = false;
         }
 
@@ -69,38 +75,29 @@ public class AudioController : MonoBehaviour
 
     private void StopLayer(int i)
     {
-        switch (i)
-        {
-            case 0:
-                layer1.volume = 0;
-                break;
-            case 1:
-                layer2.volume = 0;
-                break;
-            case 2:
-                layer3.volume = 0;
-                break;
-            case 3:
-                layer4.volume = 0;
-                break;
-        }
+        changeVolume(i,0);
     }
     
     private void StartLayer(int i)
     {
-        switch (i)
+        changeVolume(i, 1);
+    }
+
+    private void changeVolume(int layer, float volume)
+    {
+        switch (layer)
         {
             case 0:
-                layer1.volume = 1;
+                layer1.volume = volume;
                 break;
             case 1:
-                layer2.volume = 1;
+                layer2.volume = volume;
                 break;
             case 2:
-                layer3.volume = 1;
+                layer3.volume = volume;
                 break;
             case 3:
-                layer4.volume = 1;
+                layer4.volume = volume;
                 break;
         }
     }
