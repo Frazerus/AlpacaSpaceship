@@ -15,11 +15,11 @@ D:/FH-Oberoesterreich/5_Semester/_Pro_5/AlpacaSpaceship/Pro5 Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55774
+64222
 Successfully changed project path to: D:/FH-Oberoesterreich/5_Semester/_Pro_5/AlpacaSpaceship/Pro5 Game
 D:/FH-Oberoesterreich/5_Semester/_Pro_5/AlpacaSpaceship/Pro5 Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path D:/Program Files D/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,107 +35,107 @@ Initialize mono
 Mono path[0] = 'D:/Program Files D/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files D/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files D/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files D/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001293 seconds.
+Registered in 0.001132 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.849 seconds
+- Completed reload, in  1.850 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1849ms)
+	ReloadAssembly (1850ms)
 		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (415ms)
+		EndReloadAssembly (405ms)
 			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (158ms)
+			SetupTypeCache (151ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (157ms)
+			SetupLoadedEditorAssemblies (155ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (31ms)
+				RefreshPlugins (30ms)
 				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003820 seconds.
+Registered in 0.003499 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000021E6D7DA920 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000029D70F9ACE0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E724C9020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file data-0000029D75858C30 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E72D21020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000029D713BD5F0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E6D96E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000029D70E54620 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E72D21020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file data-0000029D70CFB020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E72D21020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000029D76BAD040 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E73400080 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000029D75A5E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E72D21020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000029D76BAD040 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E72FE0E20 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000029D75A5E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E72D21020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000029D76490800 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E72D21020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000029D7618C230 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E735ED020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000029D70E54620 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E6D79B010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000029D761B2020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E6E16C030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000029D710E9EA0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E6DACED40 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000029D76BAD040 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E738129F0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file data-0000029D76AAE050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E6D80E5C0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file data-0000029D76AAE050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.379 seconds
+- Completed reload, in  1.127 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1380ms)
-		BeginReloadAssembly (148ms)
+	ReloadAssembly (1127ms)
+		BeginReloadAssembly (151ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1173ms)
-			LoadAssemblies (398ms)
+		EndReloadAssembly (918ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
+			SetupTypeCache (295ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (374ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (398ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (274ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -144,14 +144,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 68.2 MB.
 System memory in use after: 68.3 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1931.
-Total: 2.673500 ms (FindLiveObjects: 0.143800 ms CreateObjectMapping: 0.037000 ms MarkObjects: 2.433400 ms  DeleteObjects: 0.058400 ms)
+Total: 2.597600 ms (FindLiveObjects: 0.129600 ms CreateObjectMapping: 0.039700 ms MarkObjects: 2.370900 ms  DeleteObjects: 0.056500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -166,149 +166,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Audio/futureTrap_Bass.wav
-  artifactKey: Guid(eee5de217360d444284ada4f7fcb4a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/futureTrap_Bass.wav using Guid(eee5de217360d444284ada4f7fcb4a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330d2435ba4088f0ff7ce31efca72e17') in 0.139058 seconds 
-  Import took 0.141234 seconds .
+  path: Assets/Audio
+  artifactKey: Guid(5ca8387d3a5676f4ca0bee7410e59b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(5ca8387d3a5676f4ca0bee7410e59b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86dc238a587dfb7bc5c570f449c1c08') in 0.007210 seconds 
+  Import took 0.009334 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Audio/futureTrap_tenet synth.wav
-  artifactKey: Guid(c69dfd56a0f45ca43a03fd0c6ef30e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/futureTrap_tenet synth.wav using Guid(c69dfd56a0f45ca43a03fd0c6ef30e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9527da306b517841eda37c57c5651334') in 0.017988 seconds 
-  Import took 0.020588 seconds .
+  Time since last request: 3.074452 seconds.
+  path: Assets/Audio/futureTrap
+  artifactKey: Guid(f0bf5e8d120aa274d8fb72613db114ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/futureTrap using Guid(f0bf5e8d120aa274d8fb72613db114ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd744bd3630d33556e24cd9faf836aa76') in 0.007057 seconds 
+  Import took 0.009541 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Audio/futureTrap_apeatio synth.wav
-  artifactKey: Guid(eb1707b621508e84da8d21fbafd25b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/futureTrap_apeatio synth.wav using Guid(eb1707b621508e84da8d21fbafd25b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cfe1e1a419b44e9d648d08c22cfbb1') in 0.015158 seconds 
-  Import took 0.017567 seconds .
+  Time since last request: 5.108823 seconds.
+  path: Assets/Audio/house
+  artifactKey: Guid(5ffbaf4bf15ea494282ddcc3f22a79ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/house using Guid(5ffbaf4bf15ea494282ddcc3f22a79ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c1691cf18f52c49f15a0a8713a6197') in 0.006342 seconds 
+  Import took 0.009026 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Audio/futureTrap_DrumBus.wav
-  artifactKey: Guid(bf6ee0a0ba19dbe4bbb151192fa3502b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/futureTrap_DrumBus.wav using Guid(bf6ee0a0ba19dbe4bbb151192fa3502b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb6ec75f056a8b2e0c8da5e7ae283e0') in 0.094377 seconds 
-  Import took 0.096587 seconds .
+  Time since last request: 37.842612 seconds.
+  path: Assets/Audio/house/HouseDemo_baseLayer.wav
+  artifactKey: Guid(a7f65a2c98aee9b4bbb6faf3a59730d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/house/HouseDemo_baseLayer.wav using Guid(a7f65a2c98aee9b4bbb6faf3a59730d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9795b76d17be9e20b4fd4c57e23b63') in 0.147696 seconds 
+  Import took 0.149907 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Audio/futureTrap_e-Guitar.wav
-  artifactKey: Guid(66be2ae870657ad4e933e88fd93484af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/futureTrap_e-Guitar.wav using Guid(66be2ae870657ad4e933e88fd93484af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cdf7a8a67d9204fa32349373aa0a6a') in 0.012343 seconds 
-  Import took 0.014617 seconds .
+  Time since last request: 0.000257 seconds.
+  path: Assets/Audio/house/HouseDemo_Layer2.wav
+  artifactKey: Guid(7a44f9e975f7bc84884c9979970220c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/house/HouseDemo_Layer2.wav using Guid(7a44f9e975f7bc84884c9979970220c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bda87210a4123c45426ced35eac2e55') in 0.013014 seconds 
+  Import took 0.015795 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Audio/futureTrap_DrumBus.wav
-  artifactKey: Guid(bf6ee0a0ba19dbe4bbb151192fa3502b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/futureTrap_DrumBus.wav using Guid(bf6ee0a0ba19dbe4bbb151192fa3502b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb6ec75f056a8b2e0c8da5e7ae283e0') in 0.008759 seconds 
-  Import took 0.010959 seconds .
+  Time since last request: 0.000228 seconds.
+  path: Assets/Audio/house/HouseDemo_Layer3.wav
+  artifactKey: Guid(517331b9f8424c74b9a42bf1addf4688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/house/HouseDemo_Layer3.wav using Guid(517331b9f8424c74b9a42bf1addf4688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19ec0a2b083d8f643036c3ec6c47657') in 0.016322 seconds 
+  Import took 0.018755 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Audio/tick.wav
-  artifactKey: Guid(88c3956078f82ee46bc22893ae90c13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/tick.wav using Guid(88c3956078f82ee46bc22893ae90c13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fc33438c6718024b9aa7cefc20942d') in 0.222794 seconds 
-  Import took 0.225048 seconds .
+  Time since last request: 0.000258 seconds.
+  path: Assets/Audio/house/HouseDemo_Layer4.wav
+  artifactKey: Guid(2c34cd842b3a934478648d8e116af657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/house/HouseDemo_Layer4.wav using Guid(2c34cd842b3a934478648d8e116af657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab00358a1ec78c3e7c312ec27aee81be') in 0.013109 seconds 
+  Import took 0.015408 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001853 seconds.
-  path: Assets/Audio/tick.wav
-  artifactKey: Guid(88c3956078f82ee46bc22893ae90c13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/tick.wav using Guid(88c3956078f82ee46bc22893ae90c13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fc33438c6718024b9aa7cefc20942d') in 0.006992 seconds 
-  Import took 0.010077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.061914 seconds.
-  path: Assets/Materials/BeatTestColor.mat
-  artifactKey: Guid(2c30f3fe7f4648c448d2cc8625996da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/BeatTestColor.mat using Guid(2c30f3fe7f4648c448d2cc8625996da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94daa13acce0c76f03f05017c3d36ce') in 0.192657 seconds 
-  Import took 0.195326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.509209 seconds.
-  path: Assets/Materials/Material
-  artifactKey: Guid(63297a5d77c157e4488fd5d86a849116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Material using Guid(63297a5d77c157e4488fd5d86a849116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c51fd04ec6febcfffd182cfee7acca2') in 0.005550 seconds 
-  Import took 0.008071 seconds .
+  Time since last request: 0.000303 seconds.
+  path: Assets/Audio/house/HouseDemo_Layer1.wav
+  artifactKey: Guid(5fab8b62c7135d541880970a1379a2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/house/HouseDemo_Layer1.wav using Guid(5fab8b62c7135d541880970a1379a2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa070f8d4be4a9d58f7241cfee4db319') in 0.022621 seconds 
+  Import took 0.025143 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005115 seconds.
+Registered in 0.003387 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000021E6DBE51F0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000029D70DD7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E76FAF9D0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file data-0000029D70D6B130 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E6D7CD110 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000029D7564E050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E6D8AA0C0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E743BF030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file data-0000029D70E46010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E743BF030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000029D70E46010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E73400080 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000029D70F5D4D0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E6D7CD110 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000029D76C9C0D0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E6D882010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000029D75E83030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E743BF030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000029D70E46010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E6DAF90E0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000029D79082030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E6D8AA0C0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E77009980 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000029D761B2020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E735ED020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000029D770E2010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021E72C78020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000029D76BAB020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021C85F3EE70 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file data-0000029D716FFE40 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021C85F3EE70 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file data-0000029D716FFE40 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.004 seconds
+- Completed reload, in  0.968 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1004ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (845ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (814ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
+			SetupTypeCache (253ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (350ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (355ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -317,11 +301,1855 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.2 MB.
+System memory in use after: 71.3 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 2.672300 ms (FindLiveObjects: 0.120800 ms CreateObjectMapping: 0.039400 ms MarkObjects: 2.495400 ms  DeleteObjects: 0.016000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004543 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D75EBB030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EBB030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76566010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7585EB70 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D71603010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D71603010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D774C2420 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D71603010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7620A010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D71603010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7585EB70 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75B09010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7585EB70 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76BAB020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76230220 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76230220 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.260 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1261ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1051ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (445ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (330ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.2 MB.
+System memory in use after: 71.3 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1944.
+Total: 3.338000 ms (FindLiveObjects: 0.186000 ms CreateObjectMapping: 0.060600 ms MarkObjects: 3.067900 ms  DeleteObjects: 0.022100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003642 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029BA94A1510 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75AF1820 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78F92010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D775FC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D775FC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D791D86B0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78F92010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7620A010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D775FC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D70F5D4D0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7585EB70 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76BAB020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029BA94AA6C0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75AF1820 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1075ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (890ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (365ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1946.
+Total: 2.810700 ms (FindLiveObjects: 0.128800 ms CreateObjectMapping: 0.039600 ms MarkObjects: 2.618700 ms  DeleteObjects: 0.022500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004277 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D75767AF0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75AF1820 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D77688050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D79065F30 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D79065F30 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78FA5DE0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D77688050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9BCF8BB0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D79065F30 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D77805110 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7585EB70 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78C68010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75AF1820 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75AF1820 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1074ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (899ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1948.
+Total: 2.828800 ms (FindLiveObjects: 0.130200 ms CreateObjectMapping: 0.042400 ms MarkObjects: 2.632900 ms  DeleteObjects: 0.022200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003568 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D77605E40 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D71662020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76263010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D77750020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D77750020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78EEC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76263010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9BD62010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D77750020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D761B2020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D775AA010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D71060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D77845030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D758625A0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.055 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1055ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (881ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1950.
+Total: 2.866600 ms (FindLiveObjects: 0.153700 ms CreateObjectMapping: 0.045100 ms MarkObjects: 2.648000 ms  DeleteObjects: 0.018900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004794 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D77759E50 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D70F5A030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D77688050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D77688050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D77688050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7579E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D77688050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76FFC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D77688050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D761B2020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D774F6030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78C68010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9CD4C670 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9CD4C670 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.191 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1191ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1952.
+Total: 3.303000 ms (FindLiveObjects: 0.154100 ms CreateObjectMapping: 0.049700 ms MarkObjects: 3.075400 ms  DeleteObjects: 0.022100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005193 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D78D08B20 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9C2A7E10 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7573A010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D81070 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D81070 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9D570010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7573A010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76FFC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D81070 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D761B2020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75AC4010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78FC5E00 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9C2A7E10 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9C2A7E10 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1356ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1154ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (443ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.2 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1954.
+Total: 2.978400 ms (FindLiveObjects: 0.143800 ms CreateObjectMapping: 0.046000 ms MarkObjects: 2.766100 ms  DeleteObjects: 0.021300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004466 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D7607DE50 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7A502020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7A3B3030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78FD7010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78FD7010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7579E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7A3B3030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76FFC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78FD7010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9D824030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D774F6030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9D694010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9CE8C9E0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7A502020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.407 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1407ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1204ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (408ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1956.
+Total: 3.112500 ms (FindLiveObjects: 0.141700 ms CreateObjectMapping: 0.043200 ms MarkObjects: 2.905100 ms  DeleteObjects: 0.021300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005412 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D7735BE70 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9DC70F00 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78F92010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9D7B2050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9D7B2050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9DE21E50 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78F92010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76FFC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9D7B2050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78FC5E00 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D761B2020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D774F6030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D71060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7A5DDA00 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7A5DDA00 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.540 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1541ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1264ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (460ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (505ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (376ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1958.
+Total: 3.811000 ms (FindLiveObjects: 0.186400 ms CreateObjectMapping: 0.052000 ms MarkObjects: 3.526600 ms  DeleteObjects: 0.044700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005852 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D9D5ADE50 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9CD2A850 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E5C0010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9DE31E70 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9DE31E70 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7579E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E5C0010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76FFC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9DE31E70 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D761B2020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D774F6030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D71060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9CD2A850 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9CD2A850 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.355 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1355ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1113ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (465ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 2.888600 ms (FindLiveObjects: 0.144200 ms CreateObjectMapping: 0.045400 ms MarkObjects: 2.677200 ms  DeleteObjects: 0.020500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005905 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D9D7BBE80 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9BC3D010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78F92010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9D5A4020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9D5A4020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9D7C2030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78F92010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9F4FC060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9D5A4020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D761B2020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D774F6030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D71060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9BC3D010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9BC3D010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.728 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1728ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1353ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (512ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (511ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (389ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1962.
+Total: 3.300500 ms (FindLiveObjects: 0.151100 ms CreateObjectMapping: 0.072200 ms MarkObjects: 3.048500 ms  DeleteObjects: 0.027400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005035 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D9F1C7200 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9EB50850 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E23CEC0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E39D620 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E39D620 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7579E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9FB1F010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76FFC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E39D620 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9F586040 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D774F6030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D71060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9EB50850 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9EB50850 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.338 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1339ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1120ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1964.
+Total: 3.331700 ms (FindLiveObjects: 0.172400 ms CreateObjectMapping: 0.051800 ms MarkObjects: 3.082500 ms  DeleteObjects: 0.023900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004238 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D9E748880 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9BD1A010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E35B700 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E492CA0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E492CA0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7579E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E35B700 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9F5A6080 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E492CA0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA01D0010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D774F6030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D71060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9BD1A010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9BD1A010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.281 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1281ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1087ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (477ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 3.844800 ms (FindLiveObjects: 0.165000 ms CreateObjectMapping: 0.110400 ms MarkObjects: 3.541100 ms  DeleteObjects: 0.026700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004186 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029DA08120D0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9D4E4030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7791F040 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA01E0030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA01E0030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7579E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA07FF050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76FFC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA01E0030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D761B2020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D774F6030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D71060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9D4E4030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9D4E4030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.300 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1301ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1090ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (428ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1968.
+Total: 3.070700 ms (FindLiveObjects: 0.151300 ms CreateObjectMapping: 0.046600 ms MarkObjects: 2.849700 ms  DeleteObjects: 0.021600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005630 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D9D2B3C90 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9F861E50 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E42E050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA01E0030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA01E0030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7579E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E42E050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76FFC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA01E0030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA0F93F20 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D774F6030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D71060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9F861E50 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9F861E50 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1284ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1063ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1970.
+Total: 3.318000 ms (FindLiveObjects: 0.147400 ms CreateObjectMapping: 0.057200 ms MarkObjects: 3.088100 ms  DeleteObjects: 0.024000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004006 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D9E66F4C0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9FAB7710 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9B49C030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA01E0030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA01E0030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA192D030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9B49C030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA19B0010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA01E0030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA0812080 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D77750020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D71060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D774F9A60 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D774F9A60 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1287ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1075ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 3.839800 ms (FindLiveObjects: 0.165500 ms CreateObjectMapping: 0.048500 ms MarkObjects: 3.601300 ms  DeleteObjects: 0.023300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003918 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D9E66ACA0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA10E0120 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9B49C030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA07FF050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA07FF050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7579E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9B49C030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76FFC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA07FF050 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D761B2020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D71461010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D71060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA10E0120 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA10E0120 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1313ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1116ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (357ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1974.
+Total: 3.148900 ms (FindLiveObjects: 0.139800 ms CreateObjectMapping: 0.045400 ms MarkObjects: 2.933500 ms  DeleteObjects: 0.028600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005941 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D9E52A890 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9F64A020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9B49C030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA1FD70C0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA1FD70C0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7579E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9B49C030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76FFC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA1FD70C0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA1FF7100 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA25DC090 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E492CA0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D71060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D71464A40 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D71464A40 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.231 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1232ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1016ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 71.4 MB.
 System memory in use after: 71.5 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1975.
-Total: 2.902800 ms (FindLiveObjects: 0.145600 ms CreateObjectMapping: 0.038200 ms MarkObjects: 2.698100 ms  DeleteObjects: 0.019900 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1976.
+Total: 3.633300 ms (FindLiveObjects: 0.224500 ms CreateObjectMapping: 0.056200 ms MarkObjects: 3.291100 ms  DeleteObjects: 0.021200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003442 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029DA1EBB4A0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E3C0010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9B49C030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA1FD70C0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA1FD70C0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7579E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9B49C030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76FFC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA1FD70C0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D761B2020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E492CA0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D71060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA1146470 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA1146470 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1157ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (974ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1978.
+Total: 3.180200 ms (FindLiveObjects: 0.158800 ms CreateObjectMapping: 0.048800 ms MarkObjects: 2.948700 ms  DeleteObjects: 0.022500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004448 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029D9D7F8D10 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9F5C80D0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9B49C030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA2C15030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA2C15030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7579E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA1EDE0A0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76FFC010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA2C15030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78B9E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D75EB7020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D761B2020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9E492CA0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D78D71060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9F5C80D0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9F5C80D0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1207ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1009ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 3.101600 ms (FindLiveObjects: 0.145500 ms CreateObjectMapping: 0.049100 ms MarkObjects: 2.885300 ms  DeleteObjects: 0.020700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2353.473948 seconds.
+  path: Assets/models/Materials
+  artifactKey: Guid(670d10176a092fe4ab90e359fda1f626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Materials using Guid(670d10176a092fe4ab90e359fda1f626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78673fe8ebdb3ae42ebfadfe4893e55f') in 0.008438 seconds 
+  Import took 0.010972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000738 seconds.
+  path: Assets/models/Materials
+  artifactKey: Guid(670d10176a092fe4ab90e359fda1f626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Materials using Guid(670d10176a092fe4ab90e359fda1f626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78673fe8ebdb3ae42ebfadfe4893e55f') in 0.002061 seconds 
+  Import took 0.004680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034906 seconds.
+  path: Assets/models/Materials/player.mat
+  artifactKey: Guid(714027c109ac9f34b99b8531d8d1832b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Materials/player.mat using Guid(714027c109ac9f34b99b8531d8d1832b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337f4c42b686da43b34e34f2b6769a50') in 0.389248 seconds 
+  Import took 0.391783 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003720 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029DA1A4F170 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D769D0100 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA263C150 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9B4A4040 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA303E080 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA303E080 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9FFA1B30 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9ECC6930 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7620A010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D7747E020 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D9DA4A060 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D70E54620 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D79E93CB0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D774F6030 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D79BD4010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029D76363010 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029DA321BBC0 doesn't match image D:\FH-Oberoesterreich\5_Semester\_Pro_5\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Domain Reload Profiling:
+	ReloadAssembly (993ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (829ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.6 MB.
+System memory in use after: 71.7 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2016.
+Total: 2.945800 ms (FindLiveObjects: 0.146900 ms CreateObjectMapping: 0.042900 ms MarkObjects: 2.734100 ms  DeleteObjects: 0.020800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

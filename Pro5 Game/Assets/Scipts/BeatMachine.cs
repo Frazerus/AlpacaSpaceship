@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BeatMachine : MonoBehaviour
 {
@@ -10,11 +11,14 @@ public class BeatMachine : MonoBehaviour
 
     [SerializeField] private int bPm = 128;
     [SerializeField] private bool doTick;
+    [SerializeField] private bool showBeat;
     [SerializeField] private int beatDivider = 2;
+    [SerializeField] private Text debugOutput;
 
     private AudioSource tick;
     private double deltaSec;
     private double deltaSecOff;
+    private int numBeat;
    
     private int takt;
     
@@ -49,6 +53,12 @@ public class BeatMachine : MonoBehaviour
         {
             current.Beat();
             deltaSec = 0;
+            numBeat++;
+            debugOutput.text = numBeat.ToString();
+            if (showBeat)
+            {
+                
+            }
             if (doTick)
             {
                 if (takt == 0)

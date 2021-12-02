@@ -36,8 +36,7 @@ public class Enemy : MonoBehaviour
         dir = player.transform.position - this.transform.position;
         dir.y = 0;
         dir = dir.normalized;
-        BaseDist++;
-       
+
 
         float angle = Vector3.Angle(transform.position, Vector3.forward);
         transform.rotation = Quaternion.Euler(0, angle, 0);
@@ -72,7 +71,7 @@ public class Enemy : MonoBehaviour
         if(moved == BaseDist)
         {
             moving = false;
-            BeatMachine.current.onOffBeat -= Move;
+            BeatMachine.current.onBeat -= Move;
             BeatMachine.current.onAttack -= Attacked;
             print("Last Distance: " + transform.position.magnitude);
             
