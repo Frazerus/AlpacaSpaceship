@@ -36,12 +36,13 @@ public class Enemy : MonoBehaviour
         dir = player.transform.position - this.transform.position;
         dir.y = 0;
         dir = dir.normalized;
+        BaseDist++;
        
 
         float angle = Vector3.Angle(transform.position, Vector3.forward);
         transform.rotation = Quaternion.Euler(0, angle, 0);
 
-        BeatMachine.current.onOffBeat += Move;
+        BeatMachine.current.onBeat += Move;
         BeatMachine.current.onAttack += Attacked;
         
     }
@@ -52,9 +53,9 @@ public class Enemy : MonoBehaviour
         {
             //Lineare Bewegung
             float inBeatDiff = (Time.time - beatTime) / (float)BeatMachine.current.beatSec;
-            //Hüpfende
+            //Hï¿½pfende
             //inBeatDiff = 0;
-            transform.position = -dir * (player.GetComponent<Player>().PerfectKillZone + speed * (BaseDist - moved - inBeatDiff));
+            transform.position = -dir * (player.GetComponent<Player>().PerfectKillZone + speed * (BaseDist - moved - inBeatDiff ));
         }
     }
 
@@ -91,7 +92,7 @@ public class Enemy : MonoBehaviour
         if(type == EnemyType && BaseDist - moved <  1)
         {
 
-            BeatMachine.current.onOffBeat -= Move;
+            BeatMachine.current.onBeat -= Move;
             BeatMachine.current.onAttack -= Attacked;
 
             BeatMachine.current.Killed(gameObject);
