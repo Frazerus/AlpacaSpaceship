@@ -9,15 +9,19 @@ public class Enemy : MonoBehaviour
     public int BaseDist;
     public int EnemyType;
 
+    public bool lastEnemy = false;
+
     [SerializeField] private int savedBeats = 16;
 
 
     private float beatTime;
     private Vector3 dir;
     private GameObject player;
+    private Player playerScript;
     private int moved = 0;
     private Material material;
     private bool moving = false;
+    private double beatOffset;
 
     private float[] enemySize =
     {
@@ -32,8 +36,9 @@ public class Enemy : MonoBehaviour
         material = this.GetComponent<MeshRenderer>().material;
         Constants.changeCol(material, EnemyType);
 
-
         player = GameObject.Find("Player");
+        playerScript = player.GetComponent<Player>();
+
         dir = player.transform.position - this.transform.position;
         dir.y = 0;
         dir = dir.normalized;
@@ -44,6 +49,8 @@ public class Enemy : MonoBehaviour
 
         BeatMachine.current.onBeat += Move;
         BeatMachine.current.onAttack += Attacked;
+
+        beatOffset = BeatMachine.current.beatSec * 0.5f* speed;
         
     }
 
@@ -55,7 +62,7 @@ public class Enemy : MonoBehaviour
             float inBeatDiff = (Time.time - beatTime) / (float)BeatMachine.current.beatSec;
             //jumping
             //inBeatDiff = 0;
-            transform.position = -dir * (player.GetComponent<Player>().PerfectKillZone + speed * (BaseDist - moved - inBeatDiff));
+            transform.position = -dir * (playerScript.PerfectKillZone + speed * (BaseDist - moved - inBeatDiff));
         }
     }
 
@@ -86,7 +93,7 @@ public class Enemy : MonoBehaviour
 
     private void Attacked(int type)
     {
-        if(type == EnemyType && BaseDist - moved <  1.5f)
+        if(type == EnemyType && BaseDist - moved <  1 + beatOffset)
         {
             BeatMachine.current.createRatingAndSend();
             EnemyKilled();
@@ -108,10 +115,17 @@ public class Enemy : MonoBehaviour
         BeatMachine.current.onBeat -= Move;
         BeatMachine.current.onAttack -= Attacked;
 
+        if (lastEnemy)
+        {
+            BeatMachine.current.EndPlaying();
+        }
+
         
         BeatMachine.current.Killed(gameObject);
 
         Destroy(gameObject);
     }
+
+    
 
 }

@@ -28,6 +28,7 @@ public class BeatMachine : MonoBehaviour
         current = this;
         tick = GetComponent<AudioSource>();
         current.onBegin += startPlaying;
+        current.onEnd += End;
 
         beatSec = 1 / ((float)bPm / 60);
         deltaSec = 0;
@@ -119,6 +120,11 @@ public class BeatMachine : MonoBehaviour
         Rating(createRating());
     }
 
+    private void End()
+    {
+        started = false;
+    }
+
     //Happens every beat once, at the divided time
     public event Action onOffBeat;
 
@@ -185,6 +191,17 @@ public class BeatMachine : MonoBehaviour
             onBegin();
         }
     }
+
+    public event Action onEnd;
+
+    public void EndPlaying()
+    {
+        if(onEnd != null)
+        {
+            onEnd();
+        }
+    }
+
 
 
     

@@ -14,6 +14,4 @@ public class EnemySpawning : MonoBehaviour
         go.transform.position = Constants.directions[transNr];
 
     }
-
-
 }

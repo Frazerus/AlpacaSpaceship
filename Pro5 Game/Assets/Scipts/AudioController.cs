@@ -6,44 +6,34 @@ using UnityEngine;
 public class AudioController : MonoBehaviour
 {
 
-    /*
-     * Maybe mit nem Array an audiosources? dann musst du nicht unten die ganze zeit switch statements machen
-     */
     [SerializeField] private AudioSource baseAudio;
-    [SerializeField] private AudioSource layer1;
-    [SerializeField] private AudioSource layer2;
-    [SerializeField] private AudioSource layer3;
-    [SerializeField] private AudioSource layer4;
+    [SerializeField] private AudioSource  [] layers;
 
-    [SerializeField] private float musicTimeOffset;
 
     private int[] beatsLeft = {0,0,0,0};
     private bool isFirstBeat = true;
     
     private void Start()
     {
-        //DO NOt FUCKING ASK ME WHY IT HAS TO BE OFFBEAT;
-        //I WOULD LOVE TO KNOW TOO
-        //FUCK THIS SHIT
         BeatMachine.current.onOffBeat += ControlLayers;
         BeatMachine.current.onKilled += OnKill;
+        BeatMachine.current.onEnd += StopAll;
     }
 
-    private IEnumerator StartAll()
+    private void StartAll()
     {
-        yield return new WaitForSeconds(musicTimeOffset);
         baseAudio.Play();
-        layer1.Play();
-        layer2.Play();
-        layer3.Play();
-        layer4.Play();
+        layers[0].Play();
+        layers[1].Play();
+        layers[2].Play();
+        layers[3].Play();
     }
 
     private void ControlLayers()
     {
         if (isFirstBeat)
         {
-            StartCoroutine(StartAll());
+            StartAll();
             isFirstBeat = false;
         }
 
@@ -75,31 +65,32 @@ public class AudioController : MonoBehaviour
 
     private void StopLayer(int i)
     {
-        changeVolume(i,0);
+        ChangeVolume(i,0);
     }
     
     private void StartLayer(int i)
     {
-        changeVolume(i, 1);
+        ChangeVolume(i, 1);
     }
 
-    private void changeVolume(int layer, float volume)
+    private void ChangeVolume(int layer, float volume)
     {
-        switch (layer)
+        layers[layer].volume = volume;
+    }
+
+    private void StopAll()
+    {
+        StartCoroutine("StopAllIE");
+    }
+
+    private IEnumerator StopAllIE()
+    {
+        yield return new WaitForSeconds(10);
+        for(int i = 0; i < layers.Length; i ++)
         {
-            case 0:
-                layer1.volume = volume;
-                break;
-            case 1:
-                layer2.volume = volume;
-                break;
-            case 2:
-                layer3.volume = volume;
-                break;
-            case 3:
-                layer4.volume = volume;
-                break;
+            layers[i].Stop();
         }
+        baseAudio.Stop();
     }
     
 }
