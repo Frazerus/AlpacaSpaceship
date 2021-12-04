@@ -8,6 +8,6 @@ public class ScoreText : MonoBehaviour
 {
     void Start()
     {
-        gameObject.GetComponent<Text>().text = "Your Score: " + Math.Round(StaticData.score * 100,2);
+        gameObject.GetComponent<Text>().text = (Math.Round(StaticData.score * 100,2)).ToString();
     }
 }

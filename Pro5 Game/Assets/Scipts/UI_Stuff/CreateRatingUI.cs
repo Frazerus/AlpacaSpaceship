@@ -19,7 +19,7 @@ public class CreateRatingUI : MonoBehaviour
         UI = GameObject.Find("UI");
     }
 
-    private void createRating(float rating)
+    private void createRating(float rating, GameObject obj)
     {
         int i = 0;
         while (i < minRating.Length && rating < minRating[i])

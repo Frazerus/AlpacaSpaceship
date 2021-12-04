@@ -11,6 +11,10 @@ public class SceneChanging : MonoBehaviour
         {
             Exit();
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            changeSceneAsync("SampleScene");
+        }
     }
 
 

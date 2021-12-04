@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
 
     public bool lastEnemy = false;
 
-    [SerializeField] private int savedBeats = 16;
+    public int savedBeats { get; set; }
 
 
     private float beatTime;
@@ -50,11 +50,11 @@ public class Enemy : MonoBehaviour
         BeatMachine.current.onBeat += Move;
         BeatMachine.current.onAttack += Attacked;
 
-        beatOffset = BeatMachine.current.beatSec * 0.5f* speed;
-        
+        beatOffset = BeatMachine.current.beatSec * 0.5f * speed;
+
     }
 
-    private void Update()   
+    private void Update()
     {
         if (moving)
         {
@@ -72,15 +72,15 @@ public class Enemy : MonoBehaviour
     {
         if (!moving)
         {
-            moving = true;  
+            moving = true;
         }
         beatTime = Time.time;
 
-        if(moved >= BaseDist)
+        if (moved >= BaseDist)
         {
             moving = false;
 
-            BeatMachine.current.Rating(0);
+            BeatMachine.current.Rating(0, gameObject);
 
             EnemyKilled();
 
@@ -93,10 +93,10 @@ public class Enemy : MonoBehaviour
 
     private void Attacked(int type)
     {
-        if(type == EnemyType && BaseDist - moved <  1 + beatOffset)
+        if (type == EnemyType && BaseDist - moved < 1 + beatOffset)
         {
-            BeatMachine.current.createRatingAndSend();
             EnemyKilled();
+            BeatMachine.current.CreateRatingAndSend(gameObject);
         }
     }
 
@@ -120,12 +120,12 @@ public class Enemy : MonoBehaviour
             BeatMachine.current.EndPlaying();
         }
 
-        
+
         BeatMachine.current.Killed(gameObject);
 
         Destroy(gameObject);
     }
 
-    
+
 
 }

@@ -12,6 +12,7 @@ public class ArraySpawning : MonoBehaviour
     private int index;
     private int beats;
     private bool doneFlag = false;
+    private int lastEnemyIndex;
 
     private EnemySpawning spawnEnemy;
 
@@ -24,6 +25,8 @@ public class ArraySpawning : MonoBehaviour
 
         spawnEnemy = gameObject.GetComponent<EnemySpawning>();
 
+        lastEnemyIndex = findLastEnemy();
+        //print("lastEnemyIndex: " + lastEnemyIndex);
 
         for (int i = 0; i < NrOfEnemiesAtOnce; i++)
         {
@@ -35,10 +38,32 @@ public class ArraySpawning : MonoBehaviour
 
     private void createEnemy()
     {
+
         if (!doneFlag)
         {
             findNextEnemy();
-            spawnEnemy.SpawnEnemy(enemy[enemyFinaltimes[index] - 1], index - beats, enemyFinaltimes[index] - 1);
+            if (index != lastEnemyIndex)
+            {
+                int saveDist = findNextEnemyByType(enemyFinaltimes[index]) - index;
+                //print("Trying to create Enemy: Arraypos: " + index);
+                spawnEnemy.SpawnEnemy(
+                            enemy: enemy[enemyFinaltimes[index] - 1],
+                            baseDist: index - beats,
+                            type: enemyFinaltimes[index] - 1,
+                            saveDist: saveDist
+                            );
+            }
+            else
+            {
+                spawnEnemy.SpawnEnemy(
+                enemy: enemy[enemyFinaltimes[index] - 1],
+                baseDist: index - beats,
+                type: enemyFinaltimes[index] - 1,
+                saveDist: enemyFinaltimes.Length - index,
+                lastEnemy: true
+                );
+            }
+
         }
     }
     private void createEnemy(GameObject obj)
@@ -56,12 +81,35 @@ public class ArraySpawning : MonoBehaviour
         while (enemyFinaltimes[index] == 0)
         {
             index++;
-            if (index == enemyFinaltimes.Length - 1)
+            if (index >= lastEnemyIndex)
             {
+                //print("Setting done flag at index: " + index);
                 doneFlag = true;
                 break;
             }
         }
 
+    }
+
+    private int findNextEnemyByType(int type)
+    {
+        int i = index + 1;
+        while (i < enemyFinaltimes.Length && enemyFinaltimes[i] != type)
+        {
+            i++;
+        }
+        return i;
+    }
+
+    private int findLastEnemy()
+    {
+        for (int i = enemyFinaltimes.Length - 1; i > 0; i--)
+        {
+            if (enemyFinaltimes[i] != 0)
+            {
+                return i;
+            }
+        }
+        return 0;
     }
 }

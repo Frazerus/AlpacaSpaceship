@@ -8,7 +8,10 @@ public class BeatMachine : MonoBehaviour
 {
     public static BeatMachine current;
     public double beatSec;
-    public double beatOffset = 2;
+    public double beatOffset = 0.2;
+    public float timeAfterLastEnemy;
+
+    [SerializeField] private bool useMainMenuOffset;
 
     [SerializeField] private int bPm = 128;
     [SerializeField] private bool doTick;
@@ -32,6 +35,9 @@ public class BeatMachine : MonoBehaviour
 
         beatSec = 1 / ((float)bPm / 60);
         deltaSec = 0;
+
+        if (useMainMenuOffset) beatOffset = StaticData.delay;
+
         deltaSecOff = beatSec * beatOffset;
     }
 
@@ -96,7 +102,7 @@ public class BeatMachine : MonoBehaviour
         Update();
     }
 
-    public float createRating()
+    public float CreateRating()
     {
         
         double max = deltaSec/beatSec;
@@ -115,14 +121,21 @@ public class BeatMachine : MonoBehaviour
         return rating;
     }
 
-    public void createRatingAndSend()
+    public void CreateRatingAndSend(GameObject obj)
     {
-        Rating(createRating());
+        Rating(CreateRating(),obj);
     }
 
     private void End()
     {
         started = false;
+        StartCoroutine("EndIE");
+    }
+
+    private IEnumerator EndIE()
+    {
+        yield return new WaitForSeconds(timeAfterLastEnemy);
+        GameObject.Find("SceneChanger").GetComponent<SceneChanging>().changeScene("EndScreen");
     }
 
     //Happens every beat once, at the divided time
@@ -172,15 +185,16 @@ public class BeatMachine : MonoBehaviour
         }
     }
 
-    public event Action<float> onRating;
+    public event Action<float,GameObject> onRating;
 
-    public void Rating(float rating)
+    public void Rating(float rating,GameObject obj)
     {
         if(onRating != null)
         {
-            onRating(rating);
+            onRating(rating,obj);
         }
     }
+
 
 
     public event Action onBegin;

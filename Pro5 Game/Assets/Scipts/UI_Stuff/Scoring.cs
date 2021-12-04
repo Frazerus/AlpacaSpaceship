@@ -18,7 +18,7 @@ public class Scoring : MonoBehaviour
     }
 
 
-    private void addScore(float rating)
+    private void addScore(float rating, GameObject obj)
     {
         total += rating;
         count++;
@@ -27,6 +27,7 @@ public class Scoring : MonoBehaviour
     private void saveScore()
     {
         StaticData.score = total / count;
-        GameObject.Find("SceneChanger").GetComponent<SceneChanging>().changeScene("EndScreen");
+
     }
+
 }
