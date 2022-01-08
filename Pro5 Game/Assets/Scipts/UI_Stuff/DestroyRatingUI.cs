@@ -22,10 +22,10 @@ public class DestroyRatingUI : MonoBehaviour
             float val = destroyTime - Time.time;
             val /= timeToDestroy;
 
-            Color clr = this.GetComponent<Text>().color;
+            /*Color clr = this.GetComponent<Text>().color;
             clr.a = val;
             this.GetComponent<Text>().color = clr;
-
+            */
             
         }
         else

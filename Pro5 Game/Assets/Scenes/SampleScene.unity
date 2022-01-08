@@ -3368,7 +3368,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98f91e9b6dabcb34abd6bfaf291b0d2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cornerThreshold: 0
+  dotPrefab: {fileID: 1363096950182699436, guid: cffd7b63f250d394dba4b8fef6168146,
+    type: 3}
+  IMPrefab: {fileID: 9129102338900025736, guid: 480d9b08b5c60d5438ca9714bf9f3f60,
+    type: 3}
+  AngleThreshold: 15
+  SpeedThresholdModifier: 0.5
+  cornerDivider: 5
+  distThreshold: 1
 --- !u!1 &983770533
 GameObject:
   m_ObjectHideFlags: 0
