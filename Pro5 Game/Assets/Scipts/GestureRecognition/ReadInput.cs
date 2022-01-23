@@ -65,6 +65,10 @@ public class ReadInput : MonoBehaviour
         {
             startPoint = Input.mousePosition;
         }
+        else
+        {
+            startPoint = Input.GetTouch(0).position;
+        }
 
         //TODO ADD TOUCH INPUT
 
@@ -117,7 +121,8 @@ public class ReadInput : MonoBehaviour
         }
         else
         {
-            newPoint = new Vector2(0, 0);
+            touch = Input.GetTouch(0);
+            newPoint = touch.position;
         }
 
 
@@ -131,7 +136,7 @@ public class ReadInput : MonoBehaviour
 
     private bool RegisteredInput()
     {
-        if (Input.touchCount > countGestures) {
+        if (Input.touchCount > 0) {
             countGestures++;
             useMouse = false;
 
