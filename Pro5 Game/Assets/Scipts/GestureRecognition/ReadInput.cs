@@ -7,11 +7,14 @@ public class ReadInput : MonoBehaviour
 
     public GameObject dotPrefab;
     public GameObject IMPrefab;
+    public GameObject Player;
 
     public float AngleThreshold = 10;
     public float SpeedThresholdModifier = 1;
     public float cornerDivider = 50;
     public float distThreshold = 1;
+
+    public bool DEBUG = true;
 
     private bool started = false;
     private bool ended = false;
@@ -25,10 +28,11 @@ public class ReadInput : MonoBehaviour
 
     private List<Point2D> points;
     private Vector2 startPoint;
+    private Player PlayerScript;
 
     void Start()
     {
-
+        PlayerScript = Player.GetComponent<Player>();
     }
 
     void Update()
@@ -70,29 +74,35 @@ public class ReadInput : MonoBehaviour
 
     private void EndRecording()
     {
-        foreach (var point in points)
-        {
-            print(point);
-        }
+        
 
         SpeedThreshold = (totalMovement / points.Count) * SpeedThresholdModifier;
         float CornerDist = totalMovement / points.Count * cornerDivider;
 
-        int Gesture = new GestureRecognizer(points, AngleThreshold, SpeedThreshold, CornerDist, this).Recognize();
-
-        foreach (var point in points)
+        int Gesture = new GestureRecognizer(points, AngleThreshold, SpeedThreshold, CornerDist, this).Recognize(totalMovement);
+        if (DEBUG)
         {
-            GameObject go = Instantiate(dotPrefab);
-            go.transform.position = point.Pos;
+
+            foreach (var point in points)
+            {
+                GameObject go = Instantiate(dotPrefab);
+                go.transform.position = point.Pos;
+            }
+
+            foreach (var point in points)
+                    {
+                        print(point);
+                    }
+
+            print("SpeedTH: " + SpeedThreshold);
+            print("CornerDist: " + CornerDist);
+
+            print("Nr Gesture Points: " + Gesture);
+            print("Nr of Points total: " + points.Count);
+            print("Total Dist Travelled: " + totalMovement);
         }
 
-
-        print("SpeedTH: " + SpeedThreshold);
-        print("CornerDist: " + CornerDist);
-
-        print("Nr Gesture Points: " + Gesture);
-        print("Nr of Points total: " + points.Count);
-        print("Total Dist Travelled: " + totalMovement);
+        PlayerScript.attack(Gesture);
 
         ResetVariables();
 

@@ -11,4 +11,24 @@ public class GestureData
         new Gesture(2, 0.2f),//Circle
         new Gesture(2, 1f),  //Line
     };
+
+    public int Match(Gesture other)
+    {
+        switch (other.nrOfCorners)
+        {
+            case 4:
+                return 1;
+
+            case 5:
+                return 0;
+
+            case 2:
+                if(other.finalDist < 0.7f)
+                {
+                    return 2;
+                }
+                return 3;
+        }
+        return -1;
+    }
 }

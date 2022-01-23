@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
 
     public void attack(int att)
     {
+        print("Attacking: " + att);
         BeatMachine.current.Attack(att);
     }
 
