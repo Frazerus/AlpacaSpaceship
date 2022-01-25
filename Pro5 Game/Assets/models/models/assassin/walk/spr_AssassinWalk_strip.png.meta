@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: 5faac4bc0b056314cbcf49c57ee6b985
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -853812071259017423
+    second: spr_AssassinWalk_strip_0
+  - first:
+      213: 7127270594407713047
+    second: spr_AssassinWalk_strip_1
+  - first:
+      213: -6056856280007096051
+    second: spr_AssassinWalk_strip_2
+  - first:
+      213: 7571718994686556103
+    second: spr_AssassinWalk_strip_3
+  - first:
+      213: 1635951449969797294
+    second: spr_AssassinWalk_strip_4
+  - first:
+      213: 5750570205927973905
+    second: spr_AssassinWalk_strip_5
+  - first:
+      213: 7936021726741541651
+    second: spr_AssassinWalk_strip_6
+  - first:
+      213: 4168106545261522635
+    second: spr_AssassinWalk_strip_7
+  - first:
+      213: -5262365388004578002
+    second: spr_AssassinWalk_strip_8
+  - first:
+      213: 2809073925829241183
+    second: spr_AssassinWalk_strip_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_AssassinWalk_strip_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 28
+        width: 17
+        height: 35
+      alignment: 9
+      pivot: {x: 0.7058824, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f6aa3e176a624f0800000000000000
+      internalID: -853812071259017423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_AssassinWalk_strip_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 28
+        width: 14
+        height: 34
+      alignment: 9
+      pivot: {x: 0.8571429, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71942cdf7d629e260800000000000000
+      internalID: 7127270594407713047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_AssassinWalk_strip_2
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 28
+        width: 12
+        height: 34
+      alignment: 9
+      pivot: {x: 0.8333334, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09459ecd49b1fba0800000000000000
+      internalID: -6056856280007096051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_AssassinWalk_strip_3
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 28
+        width: 11
+        height: 34
+      alignment: 9
+      pivot: {x: 0.8181819, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7be591f46241960800000000000000
+      internalID: 7571718994686556103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_AssassinWalk_strip_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 28
+        width: 14
+        height: 36
+      alignment: 9
+      pivot: {x: 0.7857143, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea82c351d2114b610800000000000000
+      internalID: 1635951449969797294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_AssassinWalk_strip_5
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 28
+        width: 21
+        height: 35
+      alignment: 9
+      pivot: {x: 0.71428573, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114284c62212ecf40800000000000000
+      internalID: 5750570205927973905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_AssassinWalk_strip_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 28
+        width: 18
+        height: 35
+      alignment: 9
+      pivot: {x: 0.7777778, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3133630b6b9622e60800000000000000
+      internalID: 7936021726741541651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_AssassinWalk_strip_7
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 28
+        width: 17
+        height: 35
+      alignment: 9
+      pivot: {x: 0.7647059, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce2b40c1d618d930800000000000000
+      internalID: 4168106545261522635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_AssassinWalk_strip_8
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 28
+        width: 11
+        height: 35
+      alignment: 9
+      pivot: {x: 0.8181819, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d2da19f8258f6b0800000000000000
+      internalID: -5262365388004578002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_AssassinWalk_strip_9
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 28
+        width: 14
+        height: 36
+      alignment: 9
+      pivot: {x: 0.71428573, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f592dd83ad5dbf620800000000000000
+      internalID: 2809073925829241183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1f375b20c2cf02d4e931cddfb11598f5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
