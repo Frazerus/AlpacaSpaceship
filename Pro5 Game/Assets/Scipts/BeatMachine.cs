@@ -86,7 +86,6 @@ public class BeatMachine : MonoBehaviour
                 deltaSec = deltaSec - beatSec;
                 
                 numBeat++;
-                debugOutput.text = numBeat.ToString();
                 if (showBeat)
                 {
                 

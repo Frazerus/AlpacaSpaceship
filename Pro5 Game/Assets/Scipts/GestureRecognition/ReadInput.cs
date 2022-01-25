@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class ReadInput : MonoBehaviour
 {
@@ -8,11 +9,15 @@ public class ReadInput : MonoBehaviour
     public GameObject dotPrefab;
     public GameObject IMPrefab;
     public GameObject Player;
+    public GameObject LR;
 
     public float AngleThreshold = 10;
     public float SpeedThresholdModifier = 1;
     public float cornerDivider = 50;
     public float distThreshold = 1;
+    public int maxPointsDrawn;
+    public float lineFadeOutTime = 0.5f;
+
 
     public bool DEBUG = true;
 
@@ -23,20 +28,61 @@ public class ReadInput : MonoBehaviour
     private float SpeedThreshold;
     private float totalMovement = 0;
 
+    private int lineCount = 0;
+
     private int countGestures = 0;
     private Touch touch;
 
+    
     private List<Point2D> points;
     private Vector2 startPoint;
     private Player PlayerScript;
+    private LineRenderer lineRenderer;
+    private Camera cam;
+
+    private float startWidth = 0.010f;
+    private float endWidth = 0.20f;
+    private Vector3[] lrPoints;
+    private int nrArrayPoints = 0;
+    private float SecsPerFadePos;
+    private float dTime = 0;
+    
+
 
     void Start()
     {
+        
         PlayerScript = Player.GetComponent<Player>();
+        lineRenderer = LR.GetComponent<LineRenderer>();
+        
+        
+        lineRenderer.startWidth = startWidth;
+        lineRenderer.endWidth = endWidth;
+        lineRenderer.positionCount = maxPointsDrawn;
+
+        Gradient gradient = new Gradient();
+
+        gradient.SetKeys(
+            new GradientColorKey[] { 
+                new GradientColorKey(lineRenderer.startColor, 0.0f), 
+                new GradientColorKey(lineRenderer.endColor, 1.0f)},
+            new GradientAlphaKey[] { 
+                new GradientAlphaKey(0.0f, 1.0f), 
+                new GradientAlphaKey(1.0f, 1.0f)});
+        lineRenderer.colorGradient = gradient;
+
+        cam = Camera.main;
+        lrPoints = new Vector3[maxPointsDrawn];
+
+        SecsPerFadePos = lineFadeOutTime / maxPointsDrawn;
+
+
+
     }
 
     void Update()
     {
+        
         if (RegisteredInput())
         {
             if (!started)
@@ -56,10 +102,20 @@ public class ReadInput : MonoBehaviour
         {
             EndRecording();
         }
+        else if (lineRenderer.positionCount > 0)
+        {
+            UpdateDestroyLineRenderer();
+
+        }
+
     }
 
     private void StartRecording()
     {
+
+
+        lrPoints = new Vector3[maxPointsDrawn];
+
         started = true;
         if (useMouse)
         {
@@ -70,10 +126,12 @@ public class ReadInput : MonoBehaviour
             startPoint = Input.GetTouch(0).position;
         }
 
-        //TODO ADD TOUCH INPUT
 
         points = new List<Point2D>();
         points.Add(new Point2D(startPoint, 0));
+        DrawLine(startPoint);
+
+        
     }
 
     private void EndRecording()
@@ -107,7 +165,6 @@ public class ReadInput : MonoBehaviour
         }
 
         PlayerScript.attack(Gesture);
-
         ResetVariables();
 
     }
@@ -118,10 +175,12 @@ public class ReadInput : MonoBehaviour
         if (useMouse)
         {
             newPoint = Input.mousePosition;
+            DrawLine(Input.mousePosition);
         }
         else
         {
             touch = Input.GetTouch(0);
+            DrawLine(touch.position);
             newPoint = touch.position;
         }
 
@@ -132,6 +191,51 @@ public class ReadInput : MonoBehaviour
             totalMovement += dist.magnitude;
             points.Add(new Point2D(newPoint, dist.magnitude));
         }
+
+        
+
+        
+        
+    }
+
+    private void DrawLine(Vector3 pos)
+    {
+
+        pos.z = cam.nearClipPlane + 1;
+        pos= cam.ScreenToWorldPoint(pos);
+
+        if(nrArrayPoints < maxPointsDrawn)
+        {
+            lineRenderer.positionCount = nrArrayPoints;
+            lrPoints[nrArrayPoints] = pos;
+            lineRenderer.SetPositions(lrPoints);
+            nrArrayPoints++;
+        }
+        else
+        {
+
+            ShiftLineRendererArray();
+
+            lrPoints[maxPointsDrawn - 1] = pos;
+
+
+            lineRenderer.positionCount = maxPointsDrawn;
+            lineRenderer.SetPositions(lrPoints);
+        }
+
+    }
+
+    private void UpdateDestroyLineRenderer()
+    {
+        dTime += Time.deltaTime;
+        if(dTime > SecsPerFadePos)
+        {
+            ShiftLineRendererArray();
+            lineRenderer.SetPositions(lrPoints);
+            lineRenderer.positionCount--;
+            dTime -= SecsPerFadePos;
+        }
+        
     }
 
     private bool RegisteredInput()
@@ -160,9 +264,15 @@ public class ReadInput : MonoBehaviour
         ended = false;
         useMouse = true;
         totalMovement = 0;
+        nrArrayPoints = 0;
     }
 
-    public void Sout(string sout){
-        print(sout);
+    private void ShiftLineRendererArray()
+    {
+        for (int i = 0; i < maxPointsDrawn - 1; i++)
+        {
+            lrPoints[i] = lrPoints[i + 1];
+        }
     }
+
 }

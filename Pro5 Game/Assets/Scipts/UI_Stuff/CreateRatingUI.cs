@@ -32,6 +32,8 @@ public class CreateRatingUI : MonoBehaviour
         go.GetComponent<Text>().text = ratingNames[i];
         //print(ratingNames[i]);
         go.transform.SetParent(UI.transform);
+        RectTransform transform = go.GetComponent<RectTransform>();
+        transform.position = 
         go.GetComponent<RectTransform>().anchoredPosition = prefab.GetComponent<RectTransform>().anchoredPosition;
     }
 }
