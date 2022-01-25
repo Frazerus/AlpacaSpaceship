@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: 667facbccc416204bb975c01e80bce8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4936146376158826110
+    second: spr_EnforcerDeath_strip_0
+  - first:
+      213: 4688398703142877517
+    second: spr_EnforcerDeath_strip_1
+  - first:
+      213: 626507257859194973
+    second: spr_EnforcerDeath_strip_2
+  - first:
+      213: -7167673508013151542
+    second: spr_EnforcerDeath_strip_3
+  - first:
+      213: 4904999818134679503
+    second: spr_EnforcerDeath_strip_4
+  - first:
+      213: 5959234540344160009
+    second: spr_EnforcerDeath_strip_5
+  - first:
+      213: -4639783589140326733
+    second: spr_EnforcerDeath_strip_6
+  - first:
+      213: 1950291844395647461
+    second: spr_EnforcerDeath_strip_7
+  - first:
+      213: 5024317288463369632
+    second: spr_EnforcerDeath_strip_8
+  - first:
+      213: -1974586503288920293
+    second: spr_EnforcerDeath_strip_9
+  - first:
+      213: 8702442781229092297
+    second: spr_EnforcerDeath_strip_10
+  - first:
+      213: -8114560833704665696
+    second: spr_EnforcerDeath_strip_11
+  - first:
+      213: 8329950294310669391
+    second: spr_EnforcerDeath_strip_12
+  - first:
+      213: -2114881207270524308
+    second: spr_EnforcerDeath_strip_13
+  - first:
+      213: 68930548410733691
+    second: spr_EnforcerDeath_strip_14
+  - first:
+      213: 1328859767282763424
+    second: spr_EnforcerDeath_strip_15
+  - first:
+      213: 6728028722802667124
+    second: spr_EnforcerDeath_strip_16
+  - first:
+      213: 7562055023481907385
+    second: spr_EnforcerDeath_strip_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 28
+        width: 23
+        height: 36
+      alignment: 9
+      pivot: {x: 0.08695652, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e474ee9f6b08440800000000000000
+      internalID: 4936146376158826110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 28
+        width: 20
+        height: 36
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49bb32c7c9801140800000000000000
+      internalID: 4688398703142877517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 28
+        width: 19
+        height: 36
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50c6e9180dc1b800800000000000000
+      internalID: 626507257859194973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_3
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 28
+        width: 19
+        height: 36
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acae5e0abee478c90800000000000000
+      internalID: -7167673508013151542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_4
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 28
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.083333336, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfe547c85f021440800000000000000
+      internalID: 4904999818134679503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 28
+        width: 19
+        height: 36
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fa376bd3473b250800000000000000
+      internalID: 5959234540344160009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 28
+        width: 19
+        height: 35
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b69a96886d2c9fb0800000000000000
+      internalID: -4639783589140326733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_7
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 28
+        width: 19
+        height: 35
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e14b817914d01b10800000000000000
+      internalID: 1950291844395647461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_8
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 28
+        width: 19
+        height: 35
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a586b134f5f9b540800000000000000
+      internalID: 5024317288463369632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_9
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 28
+        width: 19
+        height: 35
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17ee2d790cd894e0800000000000000
+      internalID: -1974586503288920293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_10
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 28
+        width: 19
+        height: 35
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd825d1a9945c870800000000000000
+      internalID: 8702442781229092297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_11
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 28
+        width: 21
+        height: 34
+      alignment: 9
+      pivot: {x: 0.04761905, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad5cbe1ae9436f80800000000000000
+      internalID: -8114560833704665696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_12
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 28
+        width: 27
+        height: 29
+      alignment: 9
+      pivot: {x: 0.14814815, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c4c01a8ade99370800000000000000
+      internalID: 8329950294310669391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_13
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 28
+        width: 42
+        height: 7
+      alignment: 9
+      pivot: {x: 0.1904762, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6abd724fbe66a2e0800000000000000
+      internalID: -2114881207270524308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_14
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 28
+        width: 37
+        height: 7
+      alignment: 9
+      pivot: {x: 0.13513514, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74d134f7f3e4f000800000000000000
+      internalID: 68930548410733691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_15
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 28
+        width: 37
+        height: 6
+      alignment: 9
+      pivot: {x: 0.13513514, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a68231faee017210800000000000000
+      internalID: 1328859767282763424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_16
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 28
+        width: 37
+        height: 6
+      alignment: 9
+      pivot: {x: 0.13513514, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e274d0a72ce5d50800000000000000
+      internalID: 6728028722802667124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_EnforcerDeath_strip_17
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 28
+        width: 37
+        height: 6
+      alignment: 9
+      pivot: {x: 0.13513514, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8e8967af0d1f860800000000000000
+      internalID: 7562055023481907385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ddef07c8bd3a01645a0920b715161f0f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
