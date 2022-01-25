@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 23708cda403f44146825434653a95a76
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5349311400954430498
+    second: spr_DroneDeath_strip_0
+  - first:
+      213: -7308245392997763754
+    second: spr_DroneDeath_strip_1
+  - first:
+      213: 149661469509501695
+    second: spr_DroneDeath_strip_2
+  - first:
+      213: 6206552186253935322
+    second: spr_DroneDeath_strip_3
+  - first:
+      213: -8342788010029129827
+    second: spr_DroneDeath_strip_4
+  - first:
+      213: 4316347002855334018
+    second: spr_DroneDeath_strip_5
+  - first:
+      213: 8743082887411697135
+    second: spr_DroneDeath_strip_6
+  - first:
+      213: 6946122522947431954
+    second: spr_DroneDeath_strip_7
+  - first:
+      213: -5510966479804646363
+    second: spr_DroneDeath_strip_8
+  - first:
+      213: -7154999455021142485
+    second: spr_DroneDeath_strip_9
+  - first:
+      213: -1150269433384973491
+    second: spr_DroneDeath_strip_10
+  - first:
+      213: -355947624463834476
+    second: spr_DroneDeath_strip_11
+  - first:
+      213: -5947367252207037663
+    second: spr_DroneDeath_strip_12
+  - first:
+      213: -1948432952823558946
+    second: spr_DroneDeath_strip_13
+  - first:
+      213: 5939156796698521255
+    second: spr_DroneDeath_strip_14
+  - first:
+      213: -8544879725865724642
+    second: spr_DroneDeath_strip_15
+  - first:
+      213: 2560724458775250783
+    second: spr_DroneDeath_strip_16
+  - first:
+      213: 8293313052515010575
+    second: spr_DroneDeath_strip_17
+  - first:
+      213: -4848153872916519278
+    second: spr_DroneDeath_strip_18
+  - first:
+      213: -2264864392130481918
+    second: spr_DroneDeath_strip_19
+  - first:
+      213: 5333782993506441914
+    second: spr_DroneDeath_strip_20
+  - first:
+      213: -5719467567194034488
+    second: spr_DroneDeath_strip_21
+  - first:
+      213: 9107420041102619682
+    second: spr_DroneDeath_strip_22
+  - first:
+      213: -787451428576700558
+    second: spr_DroneDeath_strip_23
+  - first:
+      213: 8880998225064066361
+    second: spr_DroneDeath_strip_24
+  - first:
+      213: 2043652978549463512
+    second: spr_DroneDeath_strip_25
+  - first:
+      213: -1853255820780250138
+    second: spr_DroneDeath_strip_26
+  - first:
+      213: -8030451440949764337
+    second: spr_DroneDeath_strip_27
+  - first:
+      213: -1238532339570695934
+    second: spr_DroneDeath_strip_28
+  - first:
+      213: -7407786481942014551
+    second: spr_DroneDeath_strip_29
+  - first:
+      213: 4273306591434715438
+    second: spr_DroneDeath_strip_30
+  - first:
+      213: -1277401043117889405
+    second: spr_DroneDeath_strip_31
+  - first:
+      213: 5818421817577310624
+    second: spr_DroneDeath_strip_32
+  - first:
+      213: 8365566183717195698
+    second: spr_DroneDeath_strip_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_DroneDeath_strip_0
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 28
+        width: 65
+        height: 53
+      alignment: 9
+      pivot: {x: 0.50769234, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22406d690629c3a40800000000000000
+      internalID: 5349311400954430498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_DroneDeath_strip_3
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 28
+        width: 83
+        height: 61
+      alignment: 9
+      pivot: {x: 0.50602406, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad20795645a122650800000000000000
+      internalID: 6206552186253935322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_DroneDeath_strip_10
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 28
+        width: 87
+        height: 63
+      alignment: 9
+      pivot: {x: 0.50574714, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b49137b0c6900f0800000000000000
+      internalID: -1150269433384973491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_DroneDeath_strip_11
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 28
+        width: 50
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492603d758b6f0bf0800000000000000
+      internalID: -355947624463834476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_DroneDeath_strip_15
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 28
+        width: 50
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15165b792d7a6980800000000000000
+      internalID: -8544879725865724642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_DroneDeath_strip_16
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 28
+        width: 50
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5704f4f355898320800000000000000
+      internalID: 2560724458775250783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_DroneDeath_strip_17
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 28
+        width: 26
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08844a0844c71370800000000000000
+      internalID: 8293313052515010575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_DroneDeath_strip_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 28
+        width: 26
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296606c3db5e7bcb0800000000000000
+      internalID: -4848153872916519278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_DroneDeath_strip_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 28
+        width: 26
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201b1aac5d59190e0800000000000000
+      internalID: -2264864392130481918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_DroneDeath_strip_20
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 28
+        width: 28
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba98fc7f57650a40800000000000000
+      internalID: 5333782993506441914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_DroneDeath_strip_22
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 28
+        width: 77
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5064935, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224f132364e046e70800000000000000
+      internalID: 9107420041102619682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_DroneDeath_strip_28
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 28
+        width: 50
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2012e013669dfcee0800000000000000
+      internalID: -1238532339570695934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_DroneDeath_strip_32
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 28
+        width: 50
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a90416d0df2fb050800000000000000
+      internalID: 5818421817577310624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 277663baa89994649b82fd13096093db
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
