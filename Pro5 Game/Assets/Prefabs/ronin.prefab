@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 466340332969489120}
   - component: {fileID: 466340332969489121}
   - component: {fileID: 466340332969489122}
+  - component: {fileID: 7218457462868173083}
   m_Layer: 0
   m_Name: ronin
   m_TagString: Untagged
@@ -103,3 +104,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7218457462868173083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466340332969489123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5358080642722a4cb30659401164308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.3
+  BaseDist: 8
+  EnemyType: 0
+  lastEnemy: 0
