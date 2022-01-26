@@ -31,7 +31,6 @@ public class ReadInput : MonoBehaviour
 
     private int lineCount = 0;
 
-    private int countGestures = 0;
     private Touch touch;
 
     
@@ -171,11 +170,11 @@ public class ReadInput : MonoBehaviour
 
         if (useMouse)
         {
-            endPoint = Input.mousePosition;
+            endPoint = previousPoint;
         }
         else
         {
-            endPoint = Input.GetTouch(0).position;
+            endPoint = previousPoint;
         }
 
 
@@ -261,7 +260,6 @@ public class ReadInput : MonoBehaviour
     private bool RegisteredInput()
     {
         if (Input.touchCount > 0) {
-            countGestures++;
             useMouse = false;
 
             return true;
