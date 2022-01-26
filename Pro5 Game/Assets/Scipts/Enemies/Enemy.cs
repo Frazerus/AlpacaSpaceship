@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public float speed;
     public int BaseDist;
     public int EnemyType;
+    public Animator Anim;
 
     public bool lastEnemy = false;
 
@@ -23,6 +24,8 @@ public class Enemy : MonoBehaviour
     private bool moving = false;
     private double beatOffset;
 
+
+
     private float[] enemySize =
     {
         0.5f,
@@ -33,8 +36,8 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        material = this.GetComponent<MeshRenderer>().material;
-        Constants.changeCol(material, EnemyType);
+        //material = this.GetComponent<MeshRenderer>().material;
+        //Constants.changeCol(material, EnemyType);
 
         player = GameObject.Find("Player");
         playerScript = player.GetComponent<Player>();
@@ -44,8 +47,13 @@ public class Enemy : MonoBehaviour
         dir = dir.normalized;
 
 
-        float angle = Vector3.Angle(transform.position, Vector3.forward);
-        transform.rotation = Quaternion.Euler(0, angle, 0);
+        //print(dir);
+        if (dir.z < 0 && dir.x < 0)
+        {
+            transform.Rotate(new Vector3(0, 180, 0));
+
+        }
+
 
         BeatMachine.current.onBeat += Move;
         BeatMachine.current.onAttack += Attacked;
@@ -70,6 +78,7 @@ public class Enemy : MonoBehaviour
 
     private void Move()
     {
+
         if (!moving)
         {
             moving = true;
@@ -79,13 +88,14 @@ public class Enemy : MonoBehaviour
         if (moved >= BaseDist)
         {
             moving = false;
-
+            Anim.Play("Attack");
             BeatMachine.current.Rating(0, gameObject);
-
-            EnemyKilled();
+            BeatMachine.current.onBeat -= Move;
+            //EnemyKilled();
 
         }
         moved++;
+
         //transform.position += dir * speed;
 
     }
@@ -95,8 +105,16 @@ public class Enemy : MonoBehaviour
     {
         if (type == EnemyType && BaseDist - moved < 1 + beatOffset)
         {
-            EnemyKilled();
-            BeatMachine.current.CreateRatingAndSend(gameObject);
+            
+            //EnemyKilled();
+            Anim.Play("Death");
+            if (moving)
+            {
+                BeatMachine.current.CreateRatingAndSend(gameObject);
+            }
+            moving = false;
+            BeatMachine.current.onBeat -= Move;
+            BeatMachine.current.onAttack -= Attacked;
         }
     }
 
@@ -110,10 +128,9 @@ public class Enemy : MonoBehaviour
         return savedBeats;
     }
 
-    private void EnemyKilled()
+    public void EnemyKilled()
     {
-        BeatMachine.current.onBeat -= Move;
-        BeatMachine.current.onAttack -= Attacked;
+
 
         if (lastEnemy)
         {
@@ -124,6 +141,11 @@ public class Enemy : MonoBehaviour
         BeatMachine.current.Killed(gameObject);
 
         Destroy(gameObject);
+    }
+
+    public void AutoAttackByPlayer()
+    {
+            playerScript.attack(EnemyType);
     }
 
 

@@ -6,13 +6,13 @@ ScriptsOnlyBuild:
     - BeatDelayDisplay
     - BeatMachine
     - BeatTest
-    - CreateRatingUI
     - CylinderSize
     - Delay
     - DestroyRatingUI
     - Enemy
     - EnemySpawning
     - Player
+    - RatingUI
     - ReadInput
     - SceneChanging
     - ScoreText
@@ -51,8 +51,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -60,23 +58,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1506}
     - Class: 114
-      Script: {instanceID: 2026}
+      Script: {instanceID: 2032}
     - Class: 114
-      Script: {instanceID: 2328}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2364}
+      Script: {instanceID: 2384}
     - Class: 114
-      Script: {instanceID: 2438}
+      Script: {instanceID: 2458}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 2638}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2758}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2924}
     - Class: 114
-      Script: {instanceID: 3312}
+      Script: {instanceID: 3352}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -106,9 +104,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -119,21 +121,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1652}
     - Class: 114
-      Script: {instanceID: 2026}
+      Script: {instanceID: 2032}
     - Class: 114
-      Script: {instanceID: 2100}
+      Script: {instanceID: 2112}
     - Class: 114
-      Script: {instanceID: 2328}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2438}
+      Script: {instanceID: 2458}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 2638}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2758}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2924}
+    - Class: 114
+      Script: {instanceID: 3286}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -141,6 +145,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -173,11 +179,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -186,46 +198,48 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1506}
     - Class: 114
-      Script: {instanceID: 2026}
+      Script: {instanceID: 2032}
     - Class: 114
-      Script: {instanceID: 2076}
+      Script: {instanceID: 2086}
     - Class: 114
-      Script: {instanceID: 2132}
+      Script: {instanceID: 2144}
     - Class: 114
-      Script: {instanceID: 2136}
+      Script: {instanceID: 2172}
     - Class: 114
-      Script: {instanceID: 2160}
+      Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 2164}
+      Script: {instanceID: 2248}
     - Class: 114
-      Script: {instanceID: 2232}
+      Script: {instanceID: 2322}
     - Class: 114
-      Script: {instanceID: 2306}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2328}
+      Script: {instanceID: 2350}
     - Class: 114
-      Script: {instanceID: 2332}
+      Script: {instanceID: 2458}
     - Class: 114
-      Script: {instanceID: 2438}
+      Script: {instanceID: 2638}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 2696}
+      Script: {instanceID: 2758}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2924}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 3286}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 3382}
     - Class: 114
-      Script: {instanceID: 3342}
+      Script: {instanceID: 3402}
     - Class: 114
-      Script: {instanceID: 3362}
+      Script: {instanceID: 3486}
     - Class: 114
-      Script: {instanceID: 4520}
+      Script: {instanceID: 4590}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -238,6 +252,8 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -358,7 +374,7 @@ ScriptsOnlyBuild:
     className: Delay
   - hash:
       serializedVersion: 2
-      Hash: 22b56e57872ffc24077965b15a1e1b8a
+      Hash: ccf65b143702e0ba3bd8c55d6fe2075a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ReadInput
@@ -650,6 +666,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 3754469fd466b0ea5204192705348b7c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RatingUI
   - hash:
       serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679

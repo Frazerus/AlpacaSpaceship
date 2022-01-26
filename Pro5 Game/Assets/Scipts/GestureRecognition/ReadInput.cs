@@ -37,6 +37,8 @@ public class ReadInput : MonoBehaviour
     
     private List<Point2D> points;
     private Vector2 startPoint;
+    private Vector2 endPoint;
+    private Vector2 previousPoint;
     private Player PlayerScript;
     private LineRenderer lineRenderer;
     private Camera cam;
@@ -124,11 +126,13 @@ public class ReadInput : MonoBehaviour
         else
         {
             startPoint = Input.GetTouch(0).position;
+            
         }
+        previousPoint = startPoint;
 
-
-        points = new List<Point2D>();
+        /*points = new List<Point2D>();
         points.Add(new Point2D(startPoint, 0));
+        */
         DrawLine(startPoint);
 
         
@@ -136,9 +140,9 @@ public class ReadInput : MonoBehaviour
 
     private void EndRecording()
     {
-        
 
-        SpeedThreshold = (totalMovement / points.Count) * SpeedThresholdModifier;
+
+        /*SpeedThreshold = (totalMovement / points.Count) * SpeedThresholdModifier;
         float CornerDist = totalMovement / points.Count * cornerDivider;
 
         int Gesture = new GestureRecognizer(points, AngleThreshold, SpeedThreshold, CornerDist, this).Recognize(totalMovement);
@@ -163,7 +167,19 @@ public class ReadInput : MonoBehaviour
             print("Nr of Points total: " + points.Count);
             print("Total Dist Travelled: " + totalMovement);
         }
+        */
 
+        if (useMouse)
+        {
+            endPoint = Input.mousePosition;
+        }
+        else
+        {
+            endPoint = Input.GetTouch(0).position;
+        }
+
+
+        int Gesture = SimpleGestureRecognition.Recognize(totalMovement, startPoint, endPoint);
         PlayerScript.attack(Gesture);
         ResetVariables();
 
@@ -171,6 +187,8 @@ public class ReadInput : MonoBehaviour
 
     private void ContinueRecording()
     {
+
+
         Vector2 newPoint;
         if (useMouse)
         {
@@ -185,12 +203,14 @@ public class ReadInput : MonoBehaviour
         }
 
 
-        Vector2 dist = newPoint - points[points.Count - 1].Pos;
+
+        Vector2 dist = newPoint - previousPoint;
         if (dist.magnitude > distThreshold)
         {
             totalMovement += dist.magnitude;
-            points.Add(new Point2D(newPoint, dist.magnitude));
+            //points.Add(new Point2D(newPoint, dist.magnitude));
         }
+        previousPoint = newPoint;
 
         
 

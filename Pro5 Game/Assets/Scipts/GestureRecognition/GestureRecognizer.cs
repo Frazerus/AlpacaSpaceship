@@ -51,6 +51,11 @@ public class GestureRecognizer
                 return 3;
         }
         return -1;
+        
+
+
+        
+
     }
 
 

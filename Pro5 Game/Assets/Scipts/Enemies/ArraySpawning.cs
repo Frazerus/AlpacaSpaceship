@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ArraySpawning : MonoBehaviour
 {
-    [Tooltip("Indexes are times in beats, values are the enemy Type: 1-4")]
+    [Tooltip("Indexes are times in beats, values are the enemy Type: 1-3")]
     public int[] enemyFinaltimes;
     public int NrOfEnemiesAtOnce;
     public GameObject[] enemy;
