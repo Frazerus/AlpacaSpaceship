@@ -17,7 +17,8 @@ public class ReadInput : MonoBehaviour
     public float distThreshold = 1;
     public int maxPointsDrawn;
     public float lineFadeOutTime = 0.5f;
-
+    public float startWidth = 0.010f;
+    public float endWidth = 0.20f;
 
     public bool DEBUG = true;
 
@@ -40,8 +41,7 @@ public class ReadInput : MonoBehaviour
     private LineRenderer lineRenderer;
     private Camera cam;
 
-    private float startWidth = 0.010f;
-    private float endWidth = 0.20f;
+    
     private Vector3[] lrPoints;
     private int nrArrayPoints = 0;
     private float SecsPerFadePos;
