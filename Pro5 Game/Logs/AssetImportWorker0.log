@@ -1,0 +1,1787 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1466; Version 2009; 64bit' Language: 'de' Physical Memory: 32702 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Neuer Ordner\Unity\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/juerg/Documents/GitHub/AlpacaSpaceship/Pro5 Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54746
+Successfully changed project path to: C:/Users/juerg/Documents/GitHub/AlpacaSpaceship/Pro5 Game
+C:/Users/juerg/Documents/GitHub/AlpacaSpaceship/Pro5 Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path D:/Neuer Ordner/Unity/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/juerg/Documents/GitHub/AlpacaSpaceship/Pro5 Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'D:/Neuer Ordner/Unity/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Neuer Ordner/Unity/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Neuer Ordner/Unity/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Neuer Ordner/Unity/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000847 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.644 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1644ms)
+		BeginReloadAssembly (48ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (327ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (125ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003161 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020746579040 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020746579040 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020744E55020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074091C1E0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020744E72840 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020744E72840 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207451B8010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020744E72840 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020745110010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020744E72840 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020744E72840 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020744E72840 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074574CA30 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207458A6010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074574CA30 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020745136220 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207404ACA90 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207404ACA90 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Domain Reload Profiling:
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (694ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1563 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.6 MB.
+System memory in use after: 71.7 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 2.372000 ms (FindLiveObjects: 0.154000 ms CreateObjectMapping: 0.041500 ms MarkObjects: 2.118100 ms  DeleteObjects: 0.057100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Materials/ripple.mat
+  artifactKey: Guid(2afd212e6a8b91f49becdf6e52e6184f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ripple.mat using Guid(2afd212e6a8b91f49becdf6e52e6184f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9ffda5e02983e4e00563c138771d5a') in 0.181625 seconds 
+  Import took 0.183704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Scenes/extension.obj
+  artifactKey: Guid(ecdbf91e717d4e94ca5c525e30d6c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/extension.obj using Guid(ecdbf91e717d4e94ca5c525e30d6c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a04a065aa8ac3f81027c1eca899f6d') in 0.122149 seconds 
+  Import took 0.124108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Scenes/cp_new.obj
+  artifactKey: Guid(73de81cceda049145a7ceff9c4c3523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cp_new.obj using Guid(73de81cceda049145a7ceff9c4c3523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6925147f8785d97e233c082fa7eab99') in 0.041105 seconds 
+  Import took 0.043426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Scenes/extension.png
+  artifactKey: Guid(ee0f8bbfb0ad99a40a541d959643b071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/extension.png using Guid(ee0f8bbfb0ad99a40a541d959643b071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55249bc8dcd8bd3b178eed4fa237f288') in 0.020399 seconds 
+  Import took 0.022359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Scenes/cp2.obj
+  artifactKey: Guid(973fb9224c6862a47948d3e424c0bdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cp2.obj using Guid(973fb9224c6862a47948d3e424c0bdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f88d3adde98c21f39aae1751c85996') in 0.018798 seconds 
+  Import took 0.020874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/pre/rain.prefab
+  artifactKey: Guid(3dfc4e0c23d347b42b560f26b870978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pre/rain.prefab using Guid(3dfc4e0c23d347b42b560f26b870978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4fd7470c38222891aea4cfa84b58f6') in 0.016451 seconds 
+  Import took 0.018702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Textures/ripple.png
+  artifactKey: Guid(6bda0a517adcdae48880c16fba77a565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ripple.png using Guid(6bda0a517adcdae48880c16fba77a565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bc73a48cf48b963085f341962df69d') in 0.006976 seconds 
+  Import took 0.009083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Scenes/scene.obj
+  artifactKey: Guid(fae374f6d9e8df94792995ad7895e3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene.obj using Guid(fae374f6d9e8df94792995ad7895e3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccd3230610789846579ae88428d1196') in 0.020130 seconds 
+  Import took 0.022396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/models/scribble_main.PNG
+  artifactKey: Guid(f0c706eb6a0ffde4fad2f450e9afd32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/scribble_main.PNG using Guid(f0c706eb6a0ffde4fad2f450e9afd32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f41ca79ab6a04777951878c21aced0') in 0.009913 seconds 
+  Import took 0.012132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Materials/streetlight.mat
+  artifactKey: Guid(69b89343b40e77044b08e21858c4b06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/streetlight.mat using Guid(69b89343b40e77044b08e21858c4b06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58afc5cddd07877ca35c2517c491252e') in 0.009558 seconds 
+  Import took 0.012222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Materials/BeatTestColor.mat
+  artifactKey: Guid(2c30f3fe7f4648c448d2cc8625996da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BeatTestColor.mat using Guid(2c30f3fe7f4648c448d2cc8625996da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a654e836e952f05adb799efb8fad31c') in 0.008973 seconds 
+  Import took 0.010994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Scenes/scene.mat
+  artifactKey: Guid(a5afae1e1a5be0e469d7094b08c91dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene.mat using Guid(a5afae1e1a5be0e469d7094b08c91dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8df0fad66d1d9419fdac05fa3a79fb') in 0.008566 seconds 
+  Import took 0.010859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Scenes/scene.png
+  artifactKey: Guid(a757a1102c60b424f9fdac6016b80068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene.png using Guid(a757a1102c60b424f9fdac6016b80068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e2e886069392c4d3662d704440b18f') in 0.004103 seconds 
+  Import took 0.006370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Scenes/new scene.mat
+  artifactKey: Guid(37b84be12a20c9249ae6759284e1f7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/new scene.mat using Guid(37b84be12a20c9249ae6759284e1f7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce52d2ad1ed1a55785ba57e68796105') in 0.011189 seconds 
+  Import took 0.013392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Scenes/cp_new.png
+  artifactKey: Guid(699abb196f44415449c1c8221fd14a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cp_new.png using Guid(699abb196f44415449c1c8221fd14a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a9f9efff3e34b571d1a8968ef85a73') in 0.004531 seconds 
+  Import took 0.007397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Scenes/emission_map.png
+  artifactKey: Guid(d8c6fcbe3328d264699409cd911fbc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/emission_map.png using Guid(d8c6fcbe3328d264699409cd911fbc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ff25e442cf3ea2d55abd663a98e023') in 0.007929 seconds 
+  Import took 0.010584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Materials/PlayerColor.mat
+  artifactKey: Guid(ef475281ddc43bc4bba2202fcf759136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PlayerColor.mat using Guid(ef475281ddc43bc4bba2202fcf759136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7d5151fd3252e41398ad02cc8936cd') in 0.009040 seconds 
+  Import took 0.011482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Materials/CylinderMaterial.mat
+  artifactKey: Guid(e3ce0646a3fed0648a45d5116aa7c5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CylinderMaterial.mat using Guid(e3ce0646a3fed0648a45d5116aa7c5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42355c87de1342a1811fd448ce1f84c7') in 0.008851 seconds 
+  Import took 0.011133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Materials/Logo.mat
+  artifactKey: Guid(7f297c0662938424e9525cd5371e2303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Logo.mat using Guid(7f297c0662938424e9525cd5371e2303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bc2dd15eb356aad37272bf456833ad') in 0.010291 seconds 
+  Import took 0.012336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/models/Illustration boss.png
+  artifactKey: Guid(bfeb184b0de6c3847acea7273b4822e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Illustration boss.png using Guid(bfeb184b0de6c3847acea7273b4822e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12a450eac8109aa6086ecc348b14c63') in 0.011600 seconds 
+  Import took 0.013881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Scenes/extension.mat
+  artifactKey: Guid(5e196dd53c11be84bb714262af80f886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/extension.mat using Guid(5e196dd53c11be84bb714262af80f886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1950afa0d32dd56c0176fafad2e3204e') in 0.008429 seconds 
+  Import took 0.010442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Scenes/lamp.obj
+  artifactKey: Guid(60ee977f509f4c6439ae1d7c8e508d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/lamp.obj using Guid(60ee977f509f4c6439ae1d7c8e508d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75813f51855e8b0ab8532ac04f0b6f93') in 0.018265 seconds 
+  Import took 0.020596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Scenes/lamp.png
+  artifactKey: Guid(698de3d1b8b6afd42906b2d2828e0a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/lamp.png using Guid(698de3d1b8b6afd42906b2d2828e0a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf0ca7fc597b17783bc3d665ca2b717') in 0.004202 seconds 
+  Import took 0.006372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.259346 seconds.
+  path: Assets/Prefabs/player 1.prefab
+  artifactKey: Guid(76a4a6a1522aac14dba4b1d5b392c9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/player 1.prefab using Guid(76a4a6a1522aac14dba4b1d5b392c9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025f538fca286c9f4e6105d24daf53e1') in 0.056289 seconds 
+  Import took 0.058558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Prefabs/Sphere 1.prefab
+  artifactKey: Guid(480d9b08b5c60d5438ca9714bf9f3f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sphere 1.prefab using Guid(480d9b08b5c60d5438ca9714bf9f3f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8960d955d1e683c05f14a5b56425200') in 0.009678 seconds 
+  Import took 0.011676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Prefabs/prototype.prefab
+  artifactKey: Guid(cfb764473200b68499675e72c60c851a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/prototype.prefab using Guid(cfb764473200b68499675e72c60c851a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9e2887170b12ff4aa0cced7d351198') in 0.010070 seconds 
+  Import took 0.012280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Prefabs/Sphere.prefab
+  artifactKey: Guid(cffd7b63f250d394dba4b8fef6168146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sphere.prefab using Guid(cffd7b63f250d394dba4b8fef6168146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64093e0fa355c41b1d9b8cbb0d21380a') in 0.008726 seconds 
+  Import took 0.010811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Prefabs/Rating.prefab
+  artifactKey: Guid(2d2f1ebefefffc94c9043b62ccb9c39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rating.prefab using Guid(2d2f1ebefefffc94c9043b62ccb9c39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4808df27660952083dfc66a628a520') in 0.011617 seconds 
+  Import took 0.013898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Prefabs/player.prefab
+  artifactKey: Guid(1687d42c2fddd554e92fc5abc32961ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/player.prefab using Guid(1687d42c2fddd554e92fc5abc32961ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2302cc61ec793aac9cee179c615a5625') in 0.005960 seconds 
+  Import took 0.008011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Prefabs/SceneChanger.prefab
+  artifactKey: Guid(37563c9b1ebde0841a6ba10d28c95716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SceneChanger.prefab using Guid(37563c9b1ebde0841a6ba10d28c95716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fc9e33c9ffc64f60cb0e8e978278e7') in 0.005984 seconds 
+  Import took 0.008030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.152191 seconds.
+  path: Assets/Prefabs/Enemies
+  artifactKey: Guid(cea3cc533e748a94a9c4c01da9363e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies using Guid(cea3cc533e748a94a9c4c01da9363e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcaffcd3aab5acdd6faa9a763eccab4') in 0.004134 seconds 
+  Import took 0.006213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031035 seconds.
+  path: Assets/Prefabs/Enemies
+  artifactKey: Guid(cea3cc533e748a94a9c4c01da9363e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies using Guid(cea3cc533e748a94a9c4c01da9363e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcaffcd3aab5acdd6faa9a763eccab4') in 0.001349 seconds 
+  Import took 0.003560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035328 seconds.
+  path: Assets/Prefabs/Enemies/enforcer.prefab
+  artifactKey: Guid(d88e1645aab4b6f49a8f16ef81a5d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/enforcer.prefab using Guid(d88e1645aab4b6f49a8f16ef81a5d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b412950aeb80afb625ddde653ab88cc') in 0.010056 seconds 
+  Import took 0.012512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.116164 seconds.
+  path: Assets/Prefabs/Enemies/ronin
+  artifactKey: Guid(eb1a4e1695347fe4da11131a83a1a03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/ronin using Guid(eb1a4e1695347fe4da11131a83a1a03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e690171cb76822123644e07113007c1') in 0.004927 seconds 
+  Import took 0.007108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101624 seconds.
+  path: Assets/Prefabs/Enemies/ronin/RoninEnemy.prefab
+  artifactKey: Guid(cc01e81e1ef79e348a8b5cf2c55cbc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/ronin/RoninEnemy.prefab using Guid(cc01e81e1ef79e348a8b5cf2c55cbc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f515c299ca9e6bb792b96bf0454c11a5') in 0.009636 seconds 
+  Import took 0.011966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.734527 seconds.
+  path: Assets/Prefabs/Enemies/ronin/ronin_run.anim
+  artifactKey: Guid(c19eb8ba856dfc34ab7f34062af901fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/ronin/ronin_run.anim using Guid(c19eb8ba856dfc34ab7f34062af901fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a71fc94db6ff3fb45ac76afea10cd4') in 0.006321 seconds 
+  Import took 0.008412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072573 seconds.
+  path: Assets/Prefabs/Enemies/ronin/ronin_run.anim
+  artifactKey: Guid(c19eb8ba856dfc34ab7f34062af901fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/ronin/ronin_run.anim using Guid(c19eb8ba856dfc34ab7f34062af901fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a71fc94db6ff3fb45ac76afea10cd4') in 0.001731 seconds 
+  Import took 0.003836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140741 seconds.
+  path: Assets/Prefabs/Enemies/ronin/ronin_death.anim
+  artifactKey: Guid(c5319e2cd2667d5478aadf6051da3f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/ronin/ronin_death.anim using Guid(c5319e2cd2667d5478aadf6051da3f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6c14f12dc32f7e1eebfc93ba56a66e') in 0.004775 seconds 
+  Import took 0.007272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001275 seconds.
+  path: Assets/Prefabs/Enemies/ronin/ronin_death.anim
+  artifactKey: Guid(c5319e2cd2667d5478aadf6051da3f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/ronin/ronin_death.anim using Guid(c5319e2cd2667d5478aadf6051da3f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6c14f12dc32f7e1eebfc93ba56a66e') in 0.001793 seconds 
+  Import took 0.003909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.411296 seconds.
+  path: Assets/Prefabs/Enemies/ronin/FAKEATTACK.anim
+  artifactKey: Guid(08d4957bb6475fc4da2af5dcaa4d8a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/ronin/FAKEATTACK.anim using Guid(08d4957bb6475fc4da2af5dcaa4d8a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244da7a2fbb828a1497f3552610a8623') in 0.005331 seconds 
+  Import took 0.007833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/Prefabs/Enemies/ronin/FAKEATTACK.anim
+  artifactKey: Guid(08d4957bb6475fc4da2af5dcaa4d8a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/ronin/FAKEATTACK.anim using Guid(08d4957bb6475fc4da2af5dcaa4d8a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244da7a2fbb828a1497f3552610a8623') in 0.002308 seconds 
+  Import took 0.004619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.608883 seconds.
+  path: Assets/models/models
+  artifactKey: Guid(6f15b79b9f882744d93a305732850c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models using Guid(6f15b79b9f882744d93a305732850c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a273407c95c0a19ed9658fd674ec7a8') in 0.004738 seconds 
+  Import took 0.007077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.570874 seconds.
+  path: Assets/models/models/ronin
+  artifactKey: Guid(be02f5dcfa75ca04aa1148ee40241998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin using Guid(be02f5dcfa75ca04aa1148ee40241998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7558ef8c49ece07f679ee420d0caa589') in 0.004007 seconds 
+  Import took 0.006089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.153859 seconds.
+  path: Assets/models/models/ronin/attack
+  artifactKey: Guid(8f568abdc1fd93c44825bea115775c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/attack using Guid(8f568abdc1fd93c44825bea115775c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61564e5875fa9ca84b372dc15a421604') in 0.005096 seconds 
+  Import took 0.007312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.037134 seconds.
+  path: Assets/models/models/ronin/attack/spr_RoninAttack_strip.png
+  artifactKey: Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/attack/spr_RoninAttack_strip.png using Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92953de0090272a6579a3917df20f933') in 0.009929 seconds 
+  Import took 0.012145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.368630 seconds.
+  path: Assets/models/models/ronin/attack/spr_RoninAttack_strip.png
+  artifactKey: Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/attack/spr_RoninAttack_strip.png using Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5467af947f088e225e8a67bdd09b1d8') in 0.011602 seconds 
+  Import took 0.013885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.222776 seconds.
+  path: Assets/models/models/ronin/attack/spr_RoninAttackAlt_strip.png
+  artifactKey: Guid(dee0001e3e2e0d444b9a3b4a81aa617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/attack/spr_RoninAttackAlt_strip.png using Guid(dee0001e3e2e0d444b9a3b4a81aa617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6432871c7539a4969eb957a69180d6bd') in 0.011033 seconds 
+  Import took 0.013399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.792545 seconds.
+  path: Assets/models/models/ronin/attack/spr_RoninAttackAlt_strip.png
+  artifactKey: Guid(dee0001e3e2e0d444b9a3b4a81aa617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/attack/spr_RoninAttackAlt_strip.png using Guid(dee0001e3e2e0d444b9a3b4a81aa617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c8c6dc190c6db298628eab22bdbde7') in 0.009356 seconds 
+  Import took 0.011659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.528857 seconds.
+  path: Assets/models/models/ronin/attack/spr_RoninAttackAlt_strip.png
+  artifactKey: Guid(dee0001e3e2e0d444b9a3b4a81aa617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/attack/spr_RoninAttackAlt_strip.png using Guid(dee0001e3e2e0d444b9a3b4a81aa617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51e3d2cf6f379ecd3c6a9b0f9b65f6d') in 0.014522 seconds 
+  Import took 0.017237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002187 seconds.
+  path: Assets/models/models/ronin/attack/spr_RoninAttackAlt_strip.png
+  artifactKey: Guid(dee0001e3e2e0d444b9a3b4a81aa617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/attack/spr_RoninAttackAlt_strip.png using Guid(dee0001e3e2e0d444b9a3b4a81aa617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51e3d2cf6f379ecd3c6a9b0f9b65f6d') in 0.005932 seconds 
+  Import took 0.008366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.558177 seconds.
+  path: Assets/models/models/ronin/death
+  artifactKey: Guid(fb61497468a4a8b44b558b5749abe306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/death using Guid(fb61497468a4a8b44b558b5749abe306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065d2e428a817601974877733ce82f4d') in 0.006717 seconds 
+  Import took 0.008885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085560 seconds.
+  path: Assets/models/models/ronin/death/spr_RoninDeath_strip.png
+  artifactKey: Guid(6b4b55ea2e11b4d43ba29afd72aa2fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/death/spr_RoninDeath_strip.png using Guid(6b4b55ea2e11b4d43ba29afd72aa2fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2c38182c2bc3668fcf90fe5bafb765') in 0.052250 seconds 
+  Import took 0.054919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.195801 seconds.
+  path: Assets/models/models/ronin/run
+  artifactKey: Guid(84b08a4e2296593469a47fff71d30910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/run using Guid(84b08a4e2296593469a47fff71d30910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3310a678d1c4292d0061e7fa21955f8f') in 0.005988 seconds 
+  Import took 0.008181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081667 seconds.
+  path: Assets/models/models/ronin/run/spr_RoninRun_strip.png
+  artifactKey: Guid(cd2c60dc4287f80428e527c5509a2737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/run/spr_RoninRun_strip.png using Guid(cd2c60dc4287f80428e527c5509a2737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230457378481c5579be2f2129064ccf2') in 0.035368 seconds 
+  Import took 0.037584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.315361 seconds.
+  path: Assets/models/models/ronin/attack/spr_RoninAttack_strip.png
+  artifactKey: Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/attack/spr_RoninAttack_strip.png using Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cc239f9445abaaa7127bb5349f41c8') in 0.139902 seconds 
+  Import took 0.160346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 320.010104 seconds.
+  path: Assets/models/models/ronin/attack/spr_RoninAttack_strip.png
+  artifactKey: Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/attack/spr_RoninAttack_strip.png using Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596ec37e5d293eded6e04de5aef34b28') in 0.042712 seconds 
+  Import took 0.045350 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.081953 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002074552D240 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074552D240 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207468DF020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740644010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B83D800 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B83D800 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B411E30 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207468DF020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020744E55020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B7FF470 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207468DF020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020746C3D020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740644010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207458A6010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740CF7050 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740903DC0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749374250 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749374250 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Domain Reload Profiling:
+	ReloadAssembly (973ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (809ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (403ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2154.
+Total: 2.583000 ms (FindLiveObjects: 0.129400 ms CreateObjectMapping: 0.043100 ms MarkObjects: 2.389700 ms  DeleteObjects: 0.019700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 488.034074 seconds.
+  path: Assets/models/models/ronin/attack/spr_RoninAttack_strip.png
+  artifactKey: Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/attack/spr_RoninAttack_strip.png using Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7388d52376b51c92ade829643df98b50') in 0.090453 seconds 
+  Import took 0.092659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.014225 seconds.
+  path: Assets/models/models/ronin/attack/ronin_attack.anim
+  artifactKey: Guid(1f8990e739caabe4d9d802ec3bc0aaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/attack/ronin_attack.anim using Guid(1f8990e739caabe4d9d802ec3bc0aaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b3f0d6dea696f8c706cb3aae216388') in 0.006342 seconds 
+  Import took 0.008578 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002737 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002074552D240 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074552D240 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207490C2060 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740644010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749D5B030 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074981C1F0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B497C60 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207490C2060 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207451B8010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749D5B030 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207490C2060 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020746A6B020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749AA0E00 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B421E40 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740CF7050 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207497F6F70 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207454DA030 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740CAE020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2157.
+Total: 2.294900 ms (FindLiveObjects: 0.143400 ms CreateObjectMapping: 0.042200 ms MarkObjects: 2.091600 ms  DeleteObjects: 0.016900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 376.202662 seconds.
+  path: Assets/models/models/ronin/attack/spr_RoninAttack_strip.png
+  artifactKey: Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/attack/spr_RoninAttack_strip.png using Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089ef1e571593030c5e584035d51b911') in 0.104096 seconds 
+  Import took 0.106333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001167 seconds.
+  path: Assets/models/models/ronin/attack/spr_RoninAttack_strip.png
+  artifactKey: Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/ronin/attack/spr_RoninAttack_strip.png using Guid(b90386f3a9dd926459c2699d494bb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089ef1e571593030c5e584035d51b911') in 0.043028 seconds 
+  Import took 0.045290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 235.521059 seconds.
+  path: Assets/models/models/player
+  artifactKey: Guid(c86e6c1102bca1f4bbf582e04c0df0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player using Guid(c86e6c1102bca1f4bbf582e04c0df0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e98d526f334f99a35e7cdb45c56146f') in 0.005621 seconds 
+  Import took 0.007706 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002733 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000207469A2EC0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074986C780 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074EED8CA0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740644010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749744E00 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074981C1F0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B411E30 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748182070 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207496C6470 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748DE4030 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020744E34010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207485A4DC0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074C1D1540 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074C200030 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074F0692C0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740AEAE60 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207404ACA90 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207404ACA90 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Domain Reload Profiling:
+	ReloadAssembly (776ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2160.
+Total: 2.292200 ms (FindLiveObjects: 0.149600 ms CreateObjectMapping: 0.045200 ms MarkObjects: 2.081900 ms  DeleteObjects: 0.014700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.791272 seconds.
+  path: Assets/models/models/player/death
+  artifactKey: Guid(90e3e992f75d83646a49991db670cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/death using Guid(90e3e992f75d83646a49991db670cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8712b828604e3cf0719e529ac91c1e') in 0.006644 seconds 
+  Import took 0.008525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.880655 seconds.
+  path: Assets/models/models/player/death/spr_StrikerDeath_strip.png
+  artifactKey: Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/death/spr_StrikerDeath_strip.png using Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813cbff57133a189cd164892a202a633') in 0.026627 seconds 
+  Import took 0.029127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003409 seconds.
+  path: Assets/models/models/player/death/spr_StrikerDeath_strip.png
+  artifactKey: Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/death/spr_StrikerDeath_strip.png using Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813cbff57133a189cd164892a202a633') in 0.005300 seconds 
+  Import took 0.007393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.945858 seconds.
+  path: Assets/models/models/player/death/spr_StrikerDeath_strip.png
+  artifactKey: Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/death/spr_StrikerDeath_strip.png using Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ad07aa22169cfa0b0c8ca931f5a39a') in 0.007943 seconds 
+  Import took 0.010190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.680984 seconds.
+  path: Assets/models/models/player/death/spr_StrikerDeath_strip.png
+  artifactKey: Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/death/spr_StrikerDeath_strip.png using Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9273c78db28acba78c96842625e9c2') in 0.075471 seconds 
+  Import took 0.077619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.493911 seconds.
+  path: Assets/models/models/player/idle
+  artifactKey: Guid(1f76ceeb276dc484aaac2262dab0eef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/idle using Guid(1f76ceeb276dc484aaac2262dab0eef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16be5df8dfe3e4312947ffb303440b3') in 0.006094 seconds 
+  Import took 0.008185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083910 seconds.
+  path: Assets/models/models/player/idle/spr_StrikerIdle_strip.png
+  artifactKey: Guid(b55350caece97b04a908091f0f4d79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/idle/spr_StrikerIdle_strip.png using Guid(b55350caece97b04a908091f0f4d79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794e6cfcf80c95de7644c5c7b420e873') in 0.024963 seconds 
+  Import took 0.027073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.188218 seconds.
+  path: Assets/models/models/player/attack
+  artifactKey: Guid(a304510b8d3f6554a9ca8a3b142e7702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/attack using Guid(a304510b8d3f6554a9ca8a3b142e7702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862c4912ee1d93068ee056d58b50cfd1') in 0.006071 seconds 
+  Import took 0.008181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069163 seconds.
+  path: Assets/models/models/player/attack/spr_StrikerSlash_stripWithEffect.png
+  artifactKey: Guid(d94368b45fa223d40b0affcd3c113ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/attack/spr_StrikerSlash_stripWithEffect.png using Guid(d94368b45fa223d40b0affcd3c113ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44baf37dbb8382c674e22027f93b3f56') in 0.038806 seconds 
+  Import took 0.041151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.279124 seconds.
+  path: Assets/models/models/player/death/spr_StrikerDeath_strip.png
+  artifactKey: Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/death/spr_StrikerDeath_strip.png using Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aaf210d4eda0562a852c7e496945721') in 0.122646 seconds 
+  Import took 0.125074 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002744 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002074552D240 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074552D240 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074BF44020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740644010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020744E75030 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020744E75030 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207495C7EA0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748182070 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207451B8010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020744E75030 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B5D2010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748A26CD0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740644010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074F627FB0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074EECB020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749AD46C0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749A22C60 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074996A760 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Domain Reload Profiling:
+	ReloadAssembly (778ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (637ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2229.
+Total: 2.498000 ms (FindLiveObjects: 0.149700 ms CreateObjectMapping: 0.037200 ms MarkObjects: 2.292300 ms  DeleteObjects: 0.018100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 245.979110 seconds.
+  path: Assets/models/models/player/death/spr_StrikerDeath_strip.png
+  artifactKey: Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/death/spr_StrikerDeath_strip.png using Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb70fcc789643ef22f978aaedfad922') in 0.072960 seconds 
+  Import took 0.075175 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002802 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002074552D240 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074552D240 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074EEAB020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740644010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074998F4C0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074998F4C0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740B0DEE0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748182070 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207496C6470 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074998F4C0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B5D2010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749AD46C0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740644010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749F23060 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074EECB020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749A8B010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740851030 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B6749D0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.766 seconds
+Domain Reload Profiling:
+	ReloadAssembly (766ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (632ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2232.
+Total: 2.223900 ms (FindLiveObjects: 0.142700 ms CreateObjectMapping: 0.043600 ms MarkObjects: 2.021200 ms  DeleteObjects: 0.015700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 127.987530 seconds.
+  path: Assets/models/models/player/death/spr_StrikerDeath_strip.png
+  artifactKey: Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/death/spr_StrikerDeath_strip.png using Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55480a4b0e18acedf7789212a2ac6cb') in 0.060263 seconds 
+  Import took 0.062353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.409970 seconds.
+  path: Assets/models/models/player/death/spr_StrikerDeath_strip.png
+  artifactKey: Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/death/spr_StrikerDeath_strip.png using Guid(e59b6479afa6cd84b99add684d0dd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55480a4b0e18acedf7789212a2ac6cb') in 0.030945 seconds 
+  Import took 0.033245 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002713 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020749C2C290 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074552D240 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020746B85050 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740644010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207496B3820 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207496B3820 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020750400010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748182070 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207496C6470 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207496B3820 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B5D2010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748A26CD0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740644010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074ED65010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749B60020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749AD46C0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207498DE0B0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074074A680 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.761 seconds
+Domain Reload Profiling:
+	ReloadAssembly (762ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (620ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2235.
+Total: 2.257100 ms (FindLiveObjects: 0.147100 ms CreateObjectMapping: 0.038000 ms MarkObjects: 2.057700 ms  DeleteObjects: 0.013700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.210609 seconds.
+  path: Assets/models/models/player/attack 1
+  artifactKey: Guid(deb5850a10b4dc243914f70592380432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/attack 1 using Guid(deb5850a10b4dc243914f70592380432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ede5c83ba49b2d0c28488b6a633691e') in 0.007325 seconds 
+  Import took 0.009295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.898127 seconds.
+  path: Assets/models/models/player/attack new
+  artifactKey: Guid(deb5850a10b4dc243914f70592380432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/attack new using Guid(deb5850a10b4dc243914f70592380432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1912de3179bbe68014efe3164957a90a') in 0.006177 seconds 
+  Import took 0.008274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.156581 seconds.
+  path: Assets/models/models/player/attack new/spr_StrikerSlash_stripWithEffectnew.png
+  artifactKey: Guid(7c08eabaf63fae04a9e9a19dad610e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/attack new/spr_StrikerSlash_stripWithEffectnew.png using Guid(7c08eabaf63fae04a9e9a19dad610e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0396aa460daa477851630d46992f16') in 0.029788 seconds 
+  Import took 0.032288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.657390 seconds.
+  path: Assets/models/models/player/attack new/spr_StrikerSlash_stripWithEffectnew.png
+  artifactKey: Guid(7c08eabaf63fae04a9e9a19dad610e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/attack new/spr_StrikerSlash_stripWithEffectnew.png using Guid(7c08eabaf63fae04a9e9a19dad610e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340e3d6ddf15d94f732804aa30438ce9') in 0.008766 seconds 
+  Import took 0.011092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.310208 seconds.
+  path: Assets/models/models/player/attack new/spr_StrikerSlash_stripWithEffectnew.png
+  artifactKey: Guid(7c08eabaf63fae04a9e9a19dad610e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/attack new/spr_StrikerSlash_stripWithEffectnew.png using Guid(7c08eabaf63fae04a9e9a19dad610e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62234718d36a17c3d90b2039a46aec6c') in 0.041934 seconds 
+  Import took 0.044315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.145940 seconds.
+  path: Assets/models/models/player/attack new/spr_StrikerSlash_stripWithEffectnew.png
+  artifactKey: Guid(7c08eabaf63fae04a9e9a19dad610e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/attack new/spr_StrikerSlash_stripWithEffectnew.png using Guid(7c08eabaf63fae04a9e9a19dad610e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb6c558f8011898480244ad2c82886d') in 0.030522 seconds 
+  Import took 0.032786 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002943 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002074552D240 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074552D240 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074ED85050 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074979BA60 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074F30F010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074F30F010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074EFFF020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074F64B020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207496C6470 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074F30F010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B5D2010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074EF49B70 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074979BA60 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074EC30090 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749941EF0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749AD46C0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074F42A9F0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207404ACA90 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (646ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2238.
+Total: 2.426400 ms (FindLiveObjects: 0.169400 ms CreateObjectMapping: 0.043100 ms MarkObjects: 2.198800 ms  DeleteObjects: 0.014400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182.480807 seconds.
+  path: Assets/models/models/player/GetHit
+  artifactKey: Guid(4fc1d53c329106b44b60b6afa0f7505e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/GetHit using Guid(4fc1d53c329106b44b60b6afa0f7505e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf59d88e5debe59dae699830863920ef') in 0.008132 seconds 
+  Import took 0.010044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.804240 seconds.
+  path: Assets/models/models/player/GetHit/spr_StrikerGetHit_strip.png
+  artifactKey: Guid(16e14d685085a8a44b5017297a17f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/GetHit/spr_StrikerGetHit_strip.png using Guid(16e14d685085a8a44b5017297a17f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e127dd3b0cd5a6bda461eba3cb5765f') in 0.026684 seconds 
+  Import took 0.028841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.409416 seconds.
+  path: Assets/models/models/player/GetHit/spr_StrikerGetHit_strip.png
+  artifactKey: Guid(16e14d685085a8a44b5017297a17f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/GetHit/spr_StrikerGetHit_strip.png using Guid(16e14d685085a8a44b5017297a17f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eefa69fd2afa51aeedc33bf1eb87ed2') in 0.008452 seconds 
+  Import took 0.010718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.188716 seconds.
+  path: Assets/models/models/player/GetHit/spr_StrikerGetHit_strip.png
+  artifactKey: Guid(16e14d685085a8a44b5017297a17f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/GetHit/spr_StrikerGetHit_strip.png using Guid(16e14d685085a8a44b5017297a17f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a33ee6035bc3cccbc7f5e3080eee81') in 0.024413 seconds 
+  Import took 0.026691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.178547 seconds.
+  path: Assets/models/models/player/GetHit/spr_StrikerGetHit_strip.png
+  artifactKey: Guid(16e14d685085a8a44b5017297a17f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/models/player/GetHit/spr_StrikerGetHit_strip.png using Guid(16e14d685085a8a44b5017297a17f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ace5b693c94d6e7d9a6ac3ff7ba5f9') in 0.071840 seconds 
+  Import took 0.074070 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003202 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020749C2C290 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748751020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074ED85050 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074979BA60 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748ED6010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748ED6010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074EFFF020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748182070 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207451B8010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748ED6010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B5D2010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749C02890 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074979BA60 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020746F74030 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740719010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749E1B340 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207450EAD60 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020750231020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Domain Reload Profiling:
+	ReloadAssembly (767ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (631ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.5 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2248.
+Total: 2.531800 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.040100 ms MarkObjects: 2.315400 ms  DeleteObjects: 0.017500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3081.840594 seconds.
+  path: Assets/Prefabs/Enemies/assassin
+  artifactKey: Guid(3a476d45832a9b84296b9dacceaf00f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/assassin using Guid(3a476d45832a9b84296b9dacceaf00f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bbed739b0c50409cdf0057cbe234e4') in 0.013784 seconds 
+  Import took 0.018271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044850 seconds.
+  path: Assets/Prefabs/Enemies/assassin/AssassinEnemy.prefab
+  artifactKey: Guid(3df39b7dd99a70a46b3a9f111dc375e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/assassin/AssassinEnemy.prefab using Guid(3df39b7dd99a70a46b3a9f111dc375e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a48b0ca5341e0a4c39b40b40e4c7bb') in 0.076248 seconds 
+  Import took 0.078475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.820573 seconds.
+  path: Assets/Prefabs/Enemies/assassin/assassin_attack.anim
+  artifactKey: Guid(fe73e4dc2f9c35e49a27efa1eb12a878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/assassin/assassin_attack.anim using Guid(fe73e4dc2f9c35e49a27efa1eb12a878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35c5ba4779f6c08d53babfbb69d440b') in 0.005792 seconds 
+  Import took 0.007836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.669521 seconds.
+  path: Assets/Prefabs/Enemies/assassin/assassin_death.anim
+  artifactKey: Guid(678771a9cb4c85946ad329a7e78d91c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/assassin/assassin_death.anim using Guid(678771a9cb4c85946ad329a7e78d91c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e44bc003b16b7f51be2b715c557c88f') in 0.006250 seconds 
+  Import took 0.008365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Prefabs/Enemies/assassin/assassin_death.anim
+  artifactKey: Guid(678771a9cb4c85946ad329a7e78d91c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/assassin/assassin_death.anim using Guid(678771a9cb4c85946ad329a7e78d91c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e44bc003b16b7f51be2b715c557c88f') in 0.002814 seconds 
+  Import took 0.004737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.501405 seconds.
+  path: Assets/Prefabs/Enemies/assassin/assassin_walk.anim
+  artifactKey: Guid(4bd1d6614a06de842b34b846906a17b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/assassin/assassin_walk.anim using Guid(4bd1d6614a06de842b34b846906a17b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b17a494164774bcef7415e1c13f9ff2') in 0.006701 seconds 
+  Import took 0.008895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Prefabs/Enemies/assassin/assassin_walk.anim
+  artifactKey: Guid(4bd1d6614a06de842b34b846906a17b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/assassin/assassin_walk.anim using Guid(4bd1d6614a06de842b34b846906a17b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b17a494164774bcef7415e1c13f9ff2') in 0.002914 seconds 
+  Import took 0.004940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.525421 seconds.
+  path: Assets/Prefabs/Enemies/assassin/AssassinEnemy.prefab
+  artifactKey: Guid(3df39b7dd99a70a46b3a9f111dc375e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/assassin/AssassinEnemy.prefab using Guid(3df39b7dd99a70a46b3a9f111dc375e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975ab15a20efc0092151a34e43ac4134') in 0.011155 seconds 
+  Import took 0.013517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.155068 seconds.
+  path: Assets/Prefabs/Enemies/assassin/AssassinEnemy.prefab
+  artifactKey: Guid(3df39b7dd99a70a46b3a9f111dc375e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/assassin/AssassinEnemy.prefab using Guid(3df39b7dd99a70a46b3a9f111dc375e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4f6e1979d3114a6a90f84baeff1f98') in 0.011506 seconds 
+  Import took 0.013781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.792569 seconds.
+  path: Assets/Prefabs/Enemies/ronin/RoninEnemy.prefab
+  artifactKey: Guid(cc01e81e1ef79e348a8b5cf2c55cbc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/ronin/RoninEnemy.prefab using Guid(cc01e81e1ef79e348a8b5cf2c55cbc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a89fb49ca8d333d207d8a70dbfc399') in 0.030307 seconds 
+  Import took 0.032578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.806393 seconds.
+  path: Assets/Prefabs/Enemies/drone
+  artifactKey: Guid(cc3987e836f7af944a6e9a094d37f223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/drone using Guid(cc3987e836f7af944a6e9a094d37f223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f285e086d1610fa8f768b6dee06f2b4') in 0.005790 seconds 
+  Import took 0.007841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101751 seconds.
+  path: Assets/Prefabs/Enemies/drone/DroneEnemy.prefab
+  artifactKey: Guid(8b95cd50cd6265b4cab852427f314474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/drone/DroneEnemy.prefab using Guid(8b95cd50cd6265b4cab852427f314474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f53a4f20026c3c8115926eadad84a6') in 0.026755 seconds 
+  Import took 0.029053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.384999 seconds.
+  path: Assets/Prefabs/Enemies/drone/DroneEnemy.prefab
+  artifactKey: Guid(8b95cd50cd6265b4cab852427f314474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/drone/DroneEnemy.prefab using Guid(8b95cd50cd6265b4cab852427f314474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096fd81f9b237a5cf45bc64f70af9bb0') in 0.010397 seconds 
+  Import took 0.012695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.776290 seconds.
+  path: Assets/Scenes/MainScreen.unity
+  artifactKey: Guid(40a9deaa69b0ac442a559b15ae1d9b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScreen.unity using Guid(40a9deaa69b0ac442a559b15ae1d9b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ff9803ae47d1bfe5e0f0d63c936493') in 0.005966 seconds 
+  Import took 0.008137 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002915 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000207496BD650 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748751020 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074ED85050 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074979BA60 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207498A1E70 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207498A1E70 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074FE62030 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020750434010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207496C6470 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207498A1E70 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074B5D2010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020748A26CD0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074979BA60 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749BE2880 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020740719010 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020749AB8680 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002074F42A9F0 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000207404ACA90 doesn't match image C:\Users\juerg\Documents\GitHub\AlpacaSpaceship\Pro5 Game\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (640ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.5 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2251.
+Total: 2.165600 ms (FindLiveObjects: 0.141700 ms CreateObjectMapping: 0.039000 ms MarkObjects: 1.969400 ms  DeleteObjects: 0.014400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
