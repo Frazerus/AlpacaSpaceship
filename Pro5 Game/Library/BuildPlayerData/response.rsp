@@ -3,7 +3,6 @@
 -a="C:\Users\lukas\Documents\GitHub\Pro5\Pro5 Game\Library\PlayerScriptAssemblies\Unity.Timeline.dll"
 -a="C:\Users\lukas\Documents\GitHub\Pro5\Pro5 Game\Library\PlayerScriptAssemblies\Unity.TextMeshPro.dll"
 -a="C:\Users\lukas\Documents\GitHub\Pro5\Pro5 Game\Library\PlayerScriptAssemblies\UnityEngine.UI.dll"
--a="C:\Users\lukas\Documents\GitHub\Pro5\Pro5 Game\Library\PlayerScriptAssemblies\Unity.Notifications.Android.dll"
 -a="C:\Users\lukas\Documents\GitHub\Pro5\Pro5 Game\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\AOT\Newtonsoft.Json.dll"
 -a="C:\Users\lukas\Documents\GitHub\Pro5\Pro5 Game\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Portable\Newtonsoft.Json.dll"
 -a="C:\Users\lukas\Documents\GitHub\Pro5\Pro5 Game\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll"

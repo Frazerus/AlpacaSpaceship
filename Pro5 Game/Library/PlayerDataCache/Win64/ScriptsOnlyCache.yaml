@@ -806,4 +806,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainScreen.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/EndScreen.unity
-  playerPath: C:/Users/lukas/Documents/AlpacaSpaceship Build/Alpaca Spaceship.exe
+  playerPath: C:/Users/lukas/Desktop/Sound Ninja.exe
