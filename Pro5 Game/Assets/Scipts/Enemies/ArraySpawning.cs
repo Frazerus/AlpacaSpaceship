@@ -77,7 +77,16 @@ public class ArraySpawning : MonoBehaviour
 
     private void findNextEnemy()
     {
+        print("current index: " + index);
+        print("current lastEIndex: " + lastEnemyIndex);
+        
         index++;
+        if (index >= lastEnemyIndex)
+        {
+            //print("Setting done flag at index: " + index);
+            doneFlag = true;
+            return;
+        }
         while (enemyFinaltimes[index] == 0)
         {
             index++;

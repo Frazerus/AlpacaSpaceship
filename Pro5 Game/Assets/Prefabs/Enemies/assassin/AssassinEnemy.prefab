@@ -9,9 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8114923415845013456}
-  - component: {fileID: 2879244509430055971}
-  - component: {fileID: 2879244509430055968}
-  - component: {fileID: -7345821148350656159}
+  - component: {fileID: 5047337455955301988}
   m_Layer: 0
   m_Name: AssassinEnemy
   m_TagString: Untagged
@@ -29,17 +27,68 @@ Transform:
   m_LocalRotation: {x: -0.011378332, y: -0.51295686, z: -0.006800084, w: 0.8583121}
   m_LocalPosition: {x: -0.32999998, y: -0.2, z: -0.54}
   m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
+  m_Children:
+  - {fileID: 5856811838645980418}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2879244509430055971
-SpriteRenderer:
+--- !u!114 &5047337455955301988
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486537153505470564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5358080642722a4cb30659401164308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.3
+  BaseDist: 8
+  EnemyType: 0
+  distOffset: 0.5
+  lastEnemy: 0
+--- !u!1 &4793928875443983425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5856811838645980418}
+  - component: {fileID: 3145754292270351022}
+  - component: {fileID: 1875479098592442998}
+  - component: {fileID: 1463116074423042745}
+  m_Layer: 0
+  m_Name: Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5856811838645980418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4793928875443983425}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8114923415845013456}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3145754292270351022
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4793928875443983425}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -85,14 +134,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &2879244509430055968
+--- !u!95 &1875479098592442998
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486537153505470564}
+  m_GameObject: {fileID: 4793928875443983425}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: a17587bcdc8e483418cc0705dc73c5f5, type: 2}
@@ -104,20 +153,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &-7345821148350656159
+--- !u!114 &1463116074423042745
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486537153505470564}
+  m_GameObject: {fileID: 4793928875443983425}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5358080642722a4cb30659401164308, type: 3}
+  m_Script: {fileID: 11500000, guid: 69805208fe88a5349b138de41f9a0cc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.3
-  BaseDist: 8
-  EnemyType: 0
-  Anim: {fileID: 2879244509430055968}
-  lastEnemy: 0

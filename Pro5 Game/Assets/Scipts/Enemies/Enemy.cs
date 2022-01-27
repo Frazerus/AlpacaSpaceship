@@ -8,7 +8,8 @@ public class Enemy : MonoBehaviour
     public float speed;
     public int BaseDist;
     public int EnemyType;
-    public Animator Anim;
+    //public GameObject child;
+    public float distOffset = 0.5f;
 
     public bool lastEnemy = false;
 
@@ -23,6 +24,7 @@ public class Enemy : MonoBehaviour
     private Material material;
     private bool moving = false;
     private double beatOffset;
+    private Animator Anim;
 
 
 
@@ -45,6 +47,8 @@ public class Enemy : MonoBehaviour
         dir = player.transform.position - this.transform.position;
         dir.y = 0;
         dir = dir.normalized;
+
+        Anim = GetComponentInChildren<Animator>();
 
 
         //print(dir);
@@ -70,7 +74,7 @@ public class Enemy : MonoBehaviour
             float inBeatDiff = (Time.time - beatTime) / (float)BeatMachine.current.beatSec;
             //jumping
             //inBeatDiff = 0;
-            transform.position = -dir * (playerScript.PerfectKillZone + speed * (BaseDist - moved - inBeatDiff));
+            transform.position = -dir * (playerScript.PerfectKillZone + distOffset + speed * (BaseDist - moved - inBeatDiff));
         }
     }
 
@@ -85,7 +89,7 @@ public class Enemy : MonoBehaviour
         }
         beatTime = Time.time;
 
-        if (moved >= BaseDist)
+        if (moved   >= BaseDist)
         {
             moving = false;
             Anim.Play("Attack");

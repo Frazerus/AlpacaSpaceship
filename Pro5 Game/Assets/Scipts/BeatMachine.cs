@@ -215,7 +215,17 @@ public class BeatMachine : MonoBehaviour
         }
     }
 
+    public event Action onHit;
+
+    public void HitPlayer()
+    {
+        if (onHit != null)
+        {
+            onHit();
+        }
+    }
 
 
-    
+
+
 }

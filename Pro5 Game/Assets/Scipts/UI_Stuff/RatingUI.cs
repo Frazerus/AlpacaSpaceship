@@ -81,6 +81,10 @@ public class RatingUI : MonoBehaviour
         {
             rate++;
         }
+        if(rate == minRating.Length -1)
+        {
+            BeatMachine.current.HitPlayer();
+        }
 
         txt.text = ratingNames[rate];
         clr.a = maxAlpha/255;
