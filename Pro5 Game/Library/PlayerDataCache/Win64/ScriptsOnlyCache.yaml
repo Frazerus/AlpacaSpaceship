@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - Enemy
     - EnemySpawning
     - FixToDisplayHeight
+    - KillParent
     - Player
     - RatingUI
     - ReadInput
@@ -34,6 +35,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -58,6 +60,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -65,23 +71,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1506}
     - Class: 114
-      Script: {instanceID: 2032}
+      Script: {instanceID: 2036}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2350}
     - Class: 114
-      Script: {instanceID: 2384}
+      Script: {instanceID: 2388}
     - Class: 114
-      Script: {instanceID: 2458}
+      Script: {instanceID: 2462}
     - Class: 114
-      Script: {instanceID: 2638}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2762}
     - Class: 114
-      Script: {instanceID: 2838}
+      Script: {instanceID: 2842}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2928}
     - Class: 114
-      Script: {instanceID: 3352}
+      Script: {instanceID: 3356}
+    - Class: 114
+      Script: {instanceID: 3452}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -115,6 +123,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -128,23 +140,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1652}
     - Class: 114
-      Script: {instanceID: 2032}
+      Script: {instanceID: 2036}
     - Class: 114
-      Script: {instanceID: 2112}
+      Script: {instanceID: 2116}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2350}
     - Class: 114
-      Script: {instanceID: 2458}
+      Script: {instanceID: 2462}
     - Class: 114
-      Script: {instanceID: 2638}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2762}
     - Class: 114
-      Script: {instanceID: 2838}
+      Script: {instanceID: 2842}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2928}
     - Class: 114
-      Script: {instanceID: 3286}
+      Script: {instanceID: 3452}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -205,47 +217,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1506}
     - Class: 114
-      Script: {instanceID: 2032}
+      Script: {instanceID: 1866}
     - Class: 114
-      Script: {instanceID: 2086}
+      Script: {instanceID: 2036}
     - Class: 114
-      Script: {instanceID: 2144}
+      Script: {instanceID: 2090}
     - Class: 114
-      Script: {instanceID: 2172}
+      Script: {instanceID: 2148}
     - Class: 114
       Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 2248}
+      Script: {instanceID: 2180}
     - Class: 114
-      Script: {instanceID: 2322}
+      Script: {instanceID: 2252}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2326}
     - Class: 114
       Script: {instanceID: 2350}
     - Class: 114
-      Script: {instanceID: 2458}
+      Script: {instanceID: 2354}
     - Class: 114
-      Script: {instanceID: 2638}
+      Script: {instanceID: 2462}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2730}
     - Class: 114
-      Script: {instanceID: 2838}
+      Script: {instanceID: 2762}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2842}
     - Class: 114
-      Script: {instanceID: 3286}
+      Script: {instanceID: 2928}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 3290}
     - Class: 114
-      Script: {instanceID: 3402}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 3486}
+      Script: {instanceID: 3406}
     - Class: 114
-      Script: {instanceID: 4560}
+      Script: {instanceID: 3490}
     - Class: 114
-      Script: {instanceID: 4594}
+      Script: {instanceID: 4566}
+    - Class: 114
+      Script: {instanceID: 4600}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -341,10 +355,22 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KillParent
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartManager
   - hash:
       serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
@@ -599,7 +625,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 0b35386c9573dcd5463b16b000379f79
+      Hash: d06cdb4430924b2e29f37908f2624631
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
@@ -653,7 +679,7 @@ ScriptsOnlyBuild:
     className: BeatMachine
   - hash:
       serializedVersion: 2
-      Hash: 11f1df5bf2de4bb46c6986fd9b7b33c1
+      Hash: 72f5ebd100e1ba0781ef2503977094e0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -791,6 +817,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Fps
+  - hash:
+      serializedVersion: 2
       Hash: 711a0b4595200184a0ce3d698b1584b1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -806,4 +838,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainScreen.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/EndScreen.unity
-  playerPath: C:/Users/lukas/Desktop/Sound Ninja.exe
+  playerPath: C:/Users/lukas/Desktop/SoundNinjaFinal/Sound Ninja.exe
